@@ -1,0 +1,12 @@
+882020 - Jose - Lopez - 80 - 1001
+882021 - Martin - Lopez - 150 - 1001
+882022 - Juan - Tanaro - 200 - 1001
+882023 - Gonzalo - Falcon - 90 - 1001
+882024 - Philippe - Agustin - 120 - 1001
+882025 - Matias - Tulli - 180 - 1001
+882026 - Valentina - Greco - 100 - 1001
+882027 - Gerardo - Aries - 170 - 1001
+882028 - Franco - Zabala - 230 - 1001
+882029 - Lucas - Olmos - 40 - 1001
+882030 - Victor - Ramirez - 70 - 1001
+882031 - Alejandro - Lopez - 110 - 1001

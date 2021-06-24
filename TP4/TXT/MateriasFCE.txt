@@ -1,0 +1,153 @@
+247-Teoría Contable-LuJuVi 9 a 11-10
+248-Estadística I-LuJuVi 9 a 11-10
+249-Historia Económica y Social Argentina-LuJuVi 9 a 11-10
+250-Microeconomía I-LuJuVi 9 a 11-10
+251-Instituciones de Derecho Público-LuJuVi 9 a 11-10
+252-Administración General-LuJuVi 9 a 11-10
+273-Instituciones del Derecho Privado-LuJuVi 9 a 11-10
+274-Sistemas Administrativos-LuJuVi 9 a 11-10
+275-Tecnología de la Información-LuJuVi 9 a 11-10
+276-Cálculo Financiero-LuJuVi 9 a 11-10
+277-Gestión y Costos-LuJuVi 9 a 11-10
+278-Macroeconomía y Política Económica-LuJuVi 9 a 11-10
+279-Administración Financiera-LuJuVi 9 a 11-10
+284-Análisis Matemático II-LuJuVi 9 a 11-10
+285-Estadística II-LuJuVi 9 a 11-10
+288-Matemática para Economistas-LuJuVi 9 a 11-10
+552-Dinero, Crédito y Bancos-LuJuVi 9 a 11-10
+751-Estadística Actuarial-LuJuVi 9 a 11-10
+752-Análisis Numérico-LuJuVi 9 a 11-10
+753-Biometría Actuarial-LuJuVi 9 a 11-10
+754-Teoría Actuarial de los Seguros Personales-LuJuVi 9 a 11-10
+755-Teoría Actuarial de los Seguros Patrimoniales-LuJuVi 9 a 11-10
+756-Teoría Actuarial de los Fondos y Planes de Jubilaciones, Pensiones y Salud-LuJuVi 9 a 11-10
+757-Teoría de Equilibrio Actuarial-LuJuVi 9 a 11-10
+758-Bases Actuariales de las Inversiones y Financiaciones-LuJuVi 9 a 11-10
+759-Seminario de Integración y Aplicación-LuJuVi 9 a 11-10
+261-Teoría Política y Derecho Público-LuJuVi 9 a 11-10
+262-Macroeconomía I-LuJuVi 9 a 11-10
+283-Macroeconomía II-LuJuVi 9 a 11-10
+286-Microeconomía II-LuJuVi 9 a 11-10
+287-Geografía Económica-LuJuVi 9 a 11-10
+289-Epistemología de la Economía-LuJuVi 9 a 11-10
+290-Microeconomía I (para Economistas)-LuJuVi 9 a 11-10
+451-Estadística para Administradores-LuJuVi 9 a 11-10
+452-Sociología de la Organización-LuJuVi 9 a 11-10
+453-Administración de la Producción-LuJuVi 9 a 11-10
+454-Administración del Personal-LuJuVi 9 a 11-10
+455-Régimen Tributario-LuJuVi 9 a 11-10
+456-Comercialización-LuJuVi 9 a 11-10
+457-Teoría de la Decisión-LuJuVi 9 a 11-10
+458-Planeamiento a Largo Plazo-LuJuVi 9 a 11-10
+459-Dirección General-LuJuVi 9 a 11-10
+460-Seminario de Integración y Aplicación-LuJuVi 9 a 11-10
+351-Sistemas Contables-LuJuVi 9 a 11-10
+353-Sistemas de Costos-LuJuVi 9 a 11-10
+354-Derecho del Trabajo y la Seguridad Social-LuJuVi 9 a 11-10
+355-Auditoría-LuJuVi 9 a 11-10
+356-Teoría y Técnica Impositiva I-LuJuVi 9 a 11-10
+357-Teoría y Técnica Impositiva II-LuJuVi 9 a 11-10
+362-Gestión y Costos para Contadores-LuJuVi 9 a 11-10
+1330-Contabilidad Social y Ambiental-LuJuVi 9 a 11-10
+1352-Contabilidad Financiera-LuJuVi 9 a 11-10
+1359-Derecho Económico-LuJuVi 9 a 11-10
+1360-Derecho Crediticio, Bursátil e Insolvencia-LuJuVi 9 a 11-10
+1374-Contabilidad Gubernamental y Control de Gestión-LuJuVi 9 a 11-10
+1358-Taller de Actuación Profesional Judicial-LuJuVi 9 a 11-10
+1361-Taller de Práctica Profesional en Organizaciones-LuJuVi 9 a 11-10
+551-Econometría-LuJuVi 9 a 11-10
+553-Historia del Pensamiento Económico-LuJuVi 9 a 11-10
+554-Crecimiento Económico-LuJuVi 9 a 11-10
+555-Organización Industrial-LuJuVi 9 a 11-10
+556-Finanzas Públicas-LuJuVi 9 a 11-10
+557-Estructura Social Argentina-LuJuVi 9 a 11-10
+558-Economía Internacional-LuJuVi 9 a 11-10
+559-Desarrollo Económico-LuJuVi 9 a 11-10
+560-Estructura Económica Argentina-LuJuVi 9 a 11-10
+561-Cuentas Nacionales-LuJuVi 9 a 11-10
+562-Seminario de Integración y Aplicación-LuJuVi 9 a 11-10
+1275-Introducción a la Tecnología de la Información y las Comunicaciones-LuJuVi 9 a 11-10
+651-Lógica-LuJuVi 9 a 11-10
+655-Tecnología de las Comunicaciones-LuJuVi 9 a 11-10
+657-Sistemas de Datos-LuJuVi 9 a 11-10
+658-Metodología de los Sistemas de Información-LuJuVi 9 a 11-10
+740-Redes Informáticas-LuJuVi 9 a 11-10
+1601-Ingeniería en Software-LuJuVi 9 a 11-10
+1603-Derecho Informático I-LuJuVi 9 a 11-10
+1604-Derecho Informático II-LuJuVi 9 a 11-10
+1652-Teoría de los Lenguajes y Algoritmos-LuJuVi 9 a 11-10
+1653-Tecnología de los Computadores y Sistemas Operativos-LuJuVi 9 a 11-10
+1654-Construcción de Aplicaciones Informáticas-LuJuVi 9 a 11-10
+1659-Auditoría y Seguridad de los Sistemas de Información-LuJuVi 9 a 11-10
+1660-Actuación Profesional del Licenciado en Sistemas de las Organizaciones-LuJuVi 9 a 11-10
+1799-Gestión de Recursos Informáticos-LuJuVi 9 a 11-10
+459-Dirección General (optativa)-MaViSa 11 a 13-10
+1715-Gobierno de Datos, Analítica e Inteligencia de Negocios (optativa)-MaViSa 11 a 13-10
+716-Gestión de la Innovación y Tecnología Informática (optativa)-MaViSa 11 a 13-10
+739-Comercio Electrónico (optativa)-MaViSa 11 a 13-10
+721-Poder Económico y Derechos Humanos(electiva)-MaViSa 11 a 13-10
+724-Economía de la Seguridad Social(electiva)-MaViSa 11 a 13-10
+786-Derechos de Seguros(electiva)-MaViSa 11 a 13-10
+717-Modelos y Proyecciones Actuariales (optativa)-MaViSa 11 a 13-10
+720-Demografía y Seguridad Social (optativa)-MaViSa 11 a 13-10
+722-Aprendizaje Estructurado (optativa)-MaViSa 11 a 13-10
+725-Bases Estadísticas y Actuariales de las Prestaciones de Salud (optativa)-MaViSa 11 a 13-10
+741-Elementos de Topología para Economía y Gestión (optativa)-MaViSa 11 a 13-10
+746-Computación Científica Actuarial (optativa)-MaViSa 11 a 13-10
+750-Métodos Cuantitativos (optativa)-MaViSa 11 a 13-10
+763-Teoría de los Juegos (optativa)-MaViSa 11 a 13-10
+784-Análisis Numérico Avanzado (optativa)-MaViSa 11 a 13-10
+785-Cálculo Financiero Nuevo Enfoque (optativa)-MaViSa 11 a 13-10
+791-Seminario de Ética de las Ocupaciones (optativa)-MaViSa 11 a 13-10
+721-Poder Económico y Derechos Humanos(electiva)-MaViSa 11 a 13-10
+724-Economía de la Seguridad Social(electiva)-MaViSa 11 a 13-10
+734-Sistemas Económicos Comparados(electiva)-MaViSa 11 a 13-10
+764-Gestión en la Economía Social(electiva)-MaViSa 11 a 13-10
+765-Economía Ambiental(electiva)-MaViSa 11 a 13-10
+780-Economía Agropecuaria(electiva)-MaViSa 11 a 13-10
+781-Mercado de Capitales y Elementos de Cálculo Financiero(electiva)-MaViSa 11 a 13-10
+782-Economía laboral(electiva)-MaViSa 11 a 13-10
+712-Género y Economia (optativa)-MaViSa 11 a 13-10
+713-Tópicos de Microeconomia (optativa)-MaViSa 11 a 13-10
+720-Demografía y Seguridad Social (optativa)-MaViSa 11 a 13-10
+731-Econometria II (optativa)-MaViSa 11 a 13-10
+745-Economía de la Energía (optativa)-MaViSa 11 a 13-10
+748-Evaluación de Proyectos (optativa)-MaViSa 11 a 13-10
+760-Prácticas para la Inclusión Social (optativa)-MaViSa 11 a 13-10
+767-Economía Marxista (optativa)-MaViSa 11 a 13-10
+779-Tópicos de Macroeconomía (optativa)-MaViSa 11 a 13-10
+783-Historia del Pensamiento Económico II (optativa)-MaViSa 11 a 13-10
+749-Administración de la Salud (electiva)-MaViSa 11 a 13-10
+788-Logística Comercial (electiva)-MaViSa 11 a 13-10
+790-Teoría de la Demanda (electiva)-MaViSa 11 a 13-10
+792-Seminario de Gestión de Pequeña y Mediana Empresa (electiva)-MaViSa 11 a 13-10
+793-Creatividad e Innovación en las Organizaciones (electiva)-MaViSa 11 a 13-10
+794-Administración Pública (electiva)-MaViSa 11 a 13-10
+795-Conducción de Equipos de Trabajo (electiva)-MaViSa 11 a 13-10
+796-Comunicaciones en la Organización (electiva)-MaViSa 11 a 13-10
+709-Derecho Procesal \Recursos\ (optativa)-MaViSa 11 a 13-10
+710-Dinámica Estratégica Operacional (optativa)-MaViSa 11 a 13-10
+718-Calidad y Productividad (optativa)-MaViSa 11 a 13-10
+719-Gestión de Políticas Públicas en el Contexto Socioeconómico (optativa)-MaViSa 11 a 13-10
+723-Seminario de Aplicación Profesional en Administración de la Salud (optativa)-MaViSa 11 a 13-10
+732-Administración del Turismo (optativa)-MaViSa 11 a 13-10
+733-Emprendedor 21 (optativa)-MaViSa 11 a 13-10
+742-Gestión del Capital Social y los Valores Éticos (optativa)-MaViSa 11 a 13-10
+760-Prácticas para la Inclusión Social (optativa)-MaViSa 11 a 13-10
+761-Gerencia Social para el Desarrollo Humano (optativa)-MaViSa 11 a 13-10
+764-Gestión en la Economía Social (optativa)-MaJuVi 9 a 11-10
+770-Seminario Avanzado de Costos (optativa)-MaJuVi 9 a 11-10
+789-Comercialización Internacional (optativa)-MaJuVi 9 a 11-10
+791-Seminario Ética de las Ocupaciones (optativa)-MaJuVi 9 a 11-10
+1707-Negociación y Oratoria en las Organizaciones (optativa)-MaJuVi 9 a 11-10
+1708-Economía y Delito (optativa)-MaJuVi 9 a 11-10
+1374-Contabilidad Gubernamental y Control de Gestión (optativa)-MaJuVi 9 a 11-10
+1799-Gestión de Recursos Informáticos (optativa)-MaJuVi 9 a 11-10
+768-Finanzas Publicas(Electivas)-MaJuVi 9 a 11-10
+775-Finanzas Publicas(electivas)-MaJuVi 9 a 11-10
+776-Planeamiento y Control Presupuestario(Electivas)-MaJuVi 9 a 11-10
+786-Derechos de Seguros(Electivas)-MaJuVi 9 a 11-10
+1798-Contabilidad Finaciera Superior(Electivas)-MaJuVi 9 a 11-10
+711-Tributación en el Sector Agropecuario(optativa)-MaJuVi 9 a 11-10
+744-Actuación del Contador en Prevención de Corrupción y Lavado de Activos (optativa)-MaJuVi 9 a 11-10
+769-Procedimiento Contencioso Administrativo y Fiscal(optativa)-MaJuVi 9 a 11-10

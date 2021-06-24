@@ -1,0 +1,52 @@
+247 - Teoría Contable - Segundo - LuVie 7 a 9hs - 10 - 200 - 0 - 0 - 0 - 0
+248 - Estadística I - Hermeginides - MaJu 19 a 21hs - 10 - 200 - 0 - 0 - 0 - 0
+249 - Historia Económica y Social Argentina - Profesor1 - hora - 10 - 200 - 0 - 0 - 0 - 0
+250 - Microeconomía I - Sanchez - MaVie 13 a 15hs - 10 - 200 - 0 - 0 - 0 - 0
+251 - Instituciones de Derecho Público - Salamanca - LuMieJu 17 a 19hs - 10 - 200 - 0 - 0 - 0 - 0
+252 - Administración General - Salguero - MieVie 21 a 23 hs - 10 - 200 - 0 - 0 - 0 - 0
+273 - Instituciones del Derecho Privado - Suarez - LuMie 17 a 19hs - 10 - 200 - 1359 - 0 - 0 - 0
+274 - Sistemas Administrativos - Gimenes - MaJu 15 a 17hs - 10 - 200 - 252 - 0 - 0 - 0
+275 - Tecnología de la Información - Barboza - LuVie 9 a 11hs - 10 - 200 - 274 - 0 - 0 - 0
+276 - Cálculo Financiero - Montenegro - MaMieJu 17 a 19hs - 10 - 200 - 248 - 0 - 0 - 0
+278 - Macroeconomía y Política Económica - Garcia - LuVie 7 a 9hs - 10 - 200 - 0 - 0 - 0 - 0
+279 - Administración Financiera - Muniain - LuMieVie 17 a 19hs - 10 - 200 - 276 - 0 - 0 - 0
+351 - Sistemas Contables - Galindo - MieVie 13 a 15hs - 10 - 200 - 247 - 0 - 0 - 0
+353 - Sistemas de Costos - Gerez - LuJue 17 a 19hs - 10 - 200 - 247 - 0 - 0 - 0
+354 - Derecho del Trabajo y la Seguridad Social - Diaz - LuMa 15 a 17hs - 10 - 200 - 251 - 1359 - 0 - 0
+355 - Auditoría - Camacho - LuVie 17 a 19hs - 10 - 200 - 362 - 1352 - 0 - 0
+356 - Teoría y Técnica Impositiva I - Martinez - MaJu 9 a 11hs - 10 - 200 - 251 - 1352 - 0 - 0
+357 - Teoría y Técnica Impositiva II - Taglia - MieJu 19 a 21hs - 10 - 200 - 356 - 0 - 0 - 0
+362 - Gestión y Costos para Contadores - Swagon - MaVie 11 a 13hs - 10 - 200 - 353 - 0 - 0 - 0
+1330 - Contabilidad Social y Ambiental - Ibarra - LuJu 15 a 17hs - 10 - 200 - 1352 - 0 - 0 - 0
+1352 - Contabilidad Financiera - Riquelme - LuMieVie 15 a 17hs - 10 - 200 - 351 -353 - 0 - 0
+1359 - Derecho Económico - Potti - MieJu 21 a 23hs - 10 - 200 - 0 - 0 - 0 - 0
+1360 - Derecho Crediticio, Bursátil e Insolvencia - Alberti - LuMa 17 a 19hs - 10 - 200 - 273 - 354 - 0 - 0
+1374 - Contabilidad Gubernamental y Control de Gestión - Pena - MaMieJu 9 a 11hs - 10 - 200 - 278 - 1352 - 0 - 0
+1358 - Taller de Actuación Profesional Judicial(taller) - Juncal - LuMieJue 21 a 23hs - 10 - 200 - 355 - 1360 - 0 - 0
+1361 - Taller de Práctica Profesional en Organizaciones(taller) - Medoro - MaJuVie 17 a 19hs - 10 - 200 - 273 - 279 - 355 - 1330
+721 - Poder Económico y Derechos Humanos(electiva) - Olalla - MaVie 17 a 19hs - 10 - 200 - 0 - 0 - 0 - 0
+749 - Administración de la Salud(electiva) - Palau - LuMaVie 11 a 13hs - 10 - 200 - 274 - 0 - 0 - 0 
+764 - Gestión en la Economía Social(electiva) - Gimenez - MaJuVie 15 a 17hs - 10 - 200 - 274 - 0 - 0 - 0 
+768 - Finanzas Públicas(electiva) - Gamba - LuJu 21 a 23hs - 10 - 200 - 362 - 0 - 0 - 0 
+775 - Seminario de Sindicatura Concursal(electiva) - Sarmiento - LuJu 9 a 11hs - 10 - 200 - 362 - 0 - 0 - 0 
+776 - Planeamiento y Control Presupuestario(electiva) - Hileret - MaMieVie 17 a 19hs - 10 - 200 - 1352 - 0 - 0 - 0 
+786 - Derecho de Seguros(electiva) - Martinez - LuMieVie 11 a 13hs - 10 - 200 - 276 - 0 - 0 - 0 
+794 - Administración Pública(electiva) - Hafler - LuMie 15 a 17hs - 10 - 200 - 362 - 0 - 0 - 0 
+1708 - Economía y Delito(electiva) - Oliva - MaMieVie 7 a 9hs - 10 - 200 - 278 - 276 - 0 - 0 
+1798 - Contabilidad Financiera Superior(electiva) - Delgado - LuMaVie 17 a 19hs - 10 - 200 - 279 - 0 - 0 - 0 
+709 - Derecho Procesal Recursos(optativa) - Silvestre - LuVie 9 a 11hs - 10 - 200 - 0 - 0 - 0 - 0
+710 - Dinamica Estratégica Operacional (optativa) - Luna - LuMieVie 13 a 15hs - 10 - 200 - 0 - 0 - 0 - 0
+711 - Tributación en el Sector Agropecuario(optativa) - Meza - MaVie 17 a 19hs - 10 - 200 - 0 - 0 - 0 - 0
+719 - Gestión de Políticas en el Contexto Socioeconómico(optativa) - Cespedes - MaMieVie 15 a 17hs - 10 - 200 - 0 - 0 - 0 - 0
+732 - Administración de Turismo(optativa) - Ciaparelli - LuVie 21 a 23hs - 10 - 200 - 0 - 0 - 0 - 0
+744 - Actuación del Contador en Prevención de Corrupción y Lavado de Activos (optativa) - Robelli - MaJue 7 a 9hs - 10 - 200 - 0 - 0 - 0 - 0
+750 - Métodos Cuantitativos(optativa) - Kominsky - MieJuVie 21 a 23hs - 10 - 200 - 0 - 0 - 0 - 0
+760 - Prácticas para la inclusión social (optativa) - Olga - LuMieVie 9 a 11hs - 10 - 200 - 0 - 0 - 0 - 0
+769 - Procedimiento Contencioso Administrativo y Fiscal(optativa) - Jurelli - MaJu 11 a 13hs - 10 - 200 - 251 - 357 - 0 - 0
+770 - Seminario Avanzado de Costos(optativa) - Costelli - LuMieVie 13 a 15hs - 10 - 200 - 0 - 0 - 0 - 0
+789 - Comercialización Internacional(optativa) - Nadal - MaVie 17 a 19hs - 10 - 200 - 279 - 353 - 0 - 0
+791 - Seminario Ética de las Ocupaciones(optativa) - Ocupelli - MieJu 13 a 15hs - 10 - 200 - 0 - 0 - 0 - 0
+795 - Conducción de Equipos de Trabajo(optativa) - Copetti - LuMieVie 9 a 11hs - 10 - 200 - 0 - 0 - 0 - 0
+1659 - Auditoría y Seguridad de Sistemas de Información(optativa) - Vinicius - LuMaVie 21 a 23hs - 10 - 200 - 0 - 0 - 0 - 0
+1707 - Negociación y Oratoria en las Organizaciones(optativa) - Barraza - MaJu 15 a 17hs - 10 - 200 - 0 - 0 - 0 - 0
+1799 - Gestión de Recursos Informáticos(optativa) - Datelli - LuJuVie 17 a 19hs - 10 - 200 - 0 - 0 - 0 - 0

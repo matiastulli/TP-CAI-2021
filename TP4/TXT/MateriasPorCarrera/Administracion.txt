@@ -1,0 +1,50 @@
+247 - Teoría Contable - Llanos - LuJu 7 a 9 - 10 - 200 - 0 - 0 - 0 - 0
+248 - Estadística I - Catala - LuJu 9 a 11 - 10 - 200 - 241 - 0 - 0 - 0
+249 - Historia Económica y Social Argentina - Holgado - LuJu 11 a 13 - 10 - 200 - 242 - 244 - 246 - 0
+250 - Microeconomía I - Balaguer - LuJu 13 a 15 - 10 - 200 - 0 - 0 - 0 - 0
+251 - Instituciones de Derecho Público - Rodriguez - LuJu 13 a 15 - 10 - 200 - 0 - 0 - 0 - 0
+252 - Administración General - Barros - LuJu 15 a 17 - 10 - 200 - 241 - 242 - 0 - 0
+273 - Instituciones del Derecho Privado - Perez - LuJu 13 a 15 - 10 - 200 - 0 - 0 - 0 - 0
+274 - Sistemas Administrativos - Barroso - LuJu 19 a 21 - 10 - 200 - 252 - 0 - 0 - 0
+275 - Tecnología de la Información - Armani - LuJu 19 a 21 - 10 - 200 - 274 - 0 - 0 - 0
+276 - Cálculo Financiero - Morcillo - LuJu 21 a 23 - 10 - 200 - 248 - 0 - 0 - 0
+277 - Gestión y Costos - Jaramillo - MaVie 7 a 9 - 10 - 200 - 247 - 276 - 0 - 0
+278 - Macroeconomía y Política Económica - Martorell - MaVie 9 a 11 - 10 - 200 - 0 - 0 - 0 - 0
+279 - Administración Financiera - Prada - MaVie 11 a 13 - 10 - 200 - 276 - 0 - 0 - 0
+451 - Estadística para Administradores - Torrico - MaVie 15 a 17 - 10 - 200 - 248 - 274 - 275 - 0
+452 - Sociología de la Organización - Patiño - MaVie 13 a 15 - 10 - 200 - 252 - 0 - 0 - 0
+453 - Administración de la Producción - Bravo - MaJuVie 13 a 15 - 10 - 200 - 252 - 276 - 0 - 0
+454 - Administración del Personal - Rey - LuJu 9 a 11 - 10 - 200 - 273- 452 - 0 - 0
+455 - Régimen Tributario - Correa - MaVie 15 a 17 - 10 - 200 - 273 - 277 - 278 - 0
+456 - Comercialización - Suarez - MaJuVie 11 a 13 - 10 - 200 - 277 - 279 - 453 - 454
+457 - Teoría de la Decisión - Nuñez - MaVie 15 a 17 - 10 - 200 - 277 - 0 - 0 - 0
+458 - Planeamiento a Largo Plazo - Senessi - MaJuVie 11 a 13 - 10 - 200 - 457 - 0 - 0 - 0
+459 - Dirección General - Gimenez - MaJuVie 11 a 13 - 10 - 200 - 279- 453- 454 - 456
+460 - Seminario de Integración y Aplicación - Russo - LuJu 19 a 21 - 10 - 200 - 456 - 457 - 0 - 0
+721 - Poder Económico y Derechos Humanos (electiva) - Carrasco - MaJuVie 11 a 13 - 10 - 200 - 0 - 0 - 0 - 0
+749 - Administración de la Salud (electiva) - Gaich - LuJu 9 a 11 - 10 - 200 - 0 - 0 - 0 - 0
+788 - Logística Comercial (electiva) - Soldano - LuJu 9 a 11 - 10 - 200 - 0 - 0 - 0 - 0
+790 - Teoría de la Demanda (electiva) - Catriel - MaJuVie 15 a 17 - 10 - 200 - 0 - 0 - 0 - 0
+792 - Seminario de Gestión de Pequeña y Mediana Empresa	 (electiva) - Briano - MaJuVie 15 a 17 - 10 - 200 - 0 - 0 - 0 - 0
+793 - Creatividad e Innovación en las Organizaciones (electiva) - Becerra - MaJuVie 15 a 17 - 10 - 200 - 0 - 0 - 0 - 0
+794 - Administración Pública (electiva) - Bolton- LuJu 9 a 11 - 10 - 200 - 0 - 0 - 0 - 0
+795 - Conducción de Equipos de Trabajo (electiva) - Tanaro - MaJuVie 21 a 23 - 10 - 200 - 0 - 0 - 0 - 0
+796 - Comunicaciones en la Organización (electiva) - Tulli- LuMieJu 9 a 11 - 10 - 200 - 0 - 0 - 0 - 0
+709 - Derecho Procesal -Recursos- (optativa) - Varela - MaJuVie 11 a 13 - 10 - 200 - 0 - 0 - 0 - 0
+710 - Dinámica Estratégica Operacional (optativa) - Valdivia - MaJuVie 13 a 15 - 10 - 200 - 0 - 0 - 0 - 0
+718 - Calidad y Productividad (optativa) - Muriel - MaJuVie 15 a 17 - 10 - 200 - 0 - 0 - 0 - 0
+719 - Gestión de Políticas Públicas en el Contexto Socioeconómico (optativa) - Guevara - MaJuVie 17 a 19 - 10 - 200 - 0 - 0 - 0 - 0
+723 - Seminario de Aplicación Profesional en Administración de la Salud (optativa) - Buendia - LuJu 9 a 11 - 10 - 200 - 0 - 0 - 0 - 0
+732 - Administración del Turismo (optativa) - Calle - LuJu 9 a 11 - 10 - 200 - 0 - 0 - 0 - 0
+733 - Emprendedor 21 (optativa) - Benito - LuJu 9 a 11 - 10 - 200 - 0 - 0 - 0 - 0
+742 - Gestión del Capital Social y los Valores Éticos (optativa) - Montes - LuJu 9 a 11 - 10 - 200 - 0 - 0 - 0 - 0
+760 - Prácticas para la Inclusión Social (optativa) - Solano - LuJu 9 a 11 - 10 - 200 - 0 - 0 - 0 - 0
+761 - Gerencia Social para el Desarrollo Humano (optativa) - Atienza - MaJuVie 19 a 21 - 10 - 200 - 0 - 0 - 0 - 0
+764 - Gestión en la Economía Social (optativa) - Zamorano - MaJuVie 21 a 23 - 10 - 200 - 0 - 0 - 0 - 0
+770 - Seminario Avanzado de Costos (optativa) - Puertas - LuJu 9 a 11 - 10 - 200 - 0 - 0 - 0 - 0
+789 - Comercialización Internacional (optativa) - Narvaez - LuJu 9 a 11 - 10 - 200 - 0 - 0 - 0 - 0
+791 - Seminario Ética de las Ocupaciones (optativa) - Olmedo - LuJu 9 a 11 - 10 - 200 - 0 - 0 - 0 - 0
+1707 - Negociación y Oratoria en las Organizaciones (optativa) - Perales - LuMieJu 9 a 11 - 10 - 200 - 0 - 0 - 0 - 0
+1708 - Economía y Delito (optativa) - Hoyos - LuMieJu 13 a 15 - 10 - 200 - 0 - 0 - 0 - 0
+1374 - Contabilidad Gubernamental y Control de Gestión (optativa) - Nuñez - MaVie 15 a 17 - 10 - 200 - 0 - 0 - 0 - 0
+1799 - Gestión de Recursos Informáticos (optativa) - Mbappe - LuMieJu 9 a 11 - 10 - 200 - 0 - 0 - 0 - 0

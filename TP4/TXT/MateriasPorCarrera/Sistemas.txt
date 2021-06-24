@@ -1,0 +1,31 @@
+247 - Teoría Contable - Llanos - LuJu 7 a 9 - 10 - 200 - 0 - 0 - 0 - 0
+248 - Estadística I - Catala - LuJu 9 a 11 - 10 - 200 - 241 - 0 - 0 - 0
+249 - Historia Económica y Social Argentina - Holgado - LuJu 11 a 13 - 10 - 200 - 242 - 244 - 246 - 0
+250 - Microeconomía I - Balaguer - LuJu 13 a 15 - 10 - 200 - 0 - 0 - 0 - 0
+252 - Administración General - Barros - LuJu 15 a 17 - 10 - 200 - 241 - 242 - 0 - 0
+1275 - Introducción a la Tecnología de la Información y las Comunicaciones - Domingo - LuJu 17 a 19 - 10 - 200 - 241 - 245 - 0 - 0
+274 - Sistemas Administrativos - Barroso - LuJu 19 a 21 - 10 - 200 - 252 - 0 - 0 - 0
+276 - Cálculo Financiero - Morcillo - LuJu 21 a 23 - 10 - 200 - 248 - 0 - 0 - 0
+277 - Gestión y Costos - Jaramillo - MaVie 7 a 9 - 10 - 200 - 247 - 276 - 0 - 0
+278 - Macroeconomía y Política Económica - Martorell - MaVie 9 a 11 - 10 - 200 - 0 - 0 - 0 - 0
+279 - Administración Financiera - Prada - MaVie 11 a 13 - 10 - 200 - 276 - 0 - 0 - 0
+452 - Sociología de la Organización - Patiño - MaVie 13 a 15 - 10 - 200 - 252 - 0 - 0 - 0
+457 - Teoría de la Decisión - Nuñez - MaVie 15 a 17 - 10 - 200 - 277 - 0 - 0 - 0
+651 - Lógica - Barrientos - MaVie 17 a 19 - 10 - 200 - 1275 - 0 - 0 - 0
+655 - Tecnología de las Comunicaciones - Miro - MaVie 19 a 21 - 10 - 200 - 1653 - 0 - 0 - 0
+657 - Sistemas de Datos - Otero - MaVie 21 a 23 - 10 - 200 - 651 - 0 - 0 - 0
+658 - Metodología de los Sistemas de Información - Agustin - MieVie 9 a 11 - 10 - 200 - 1275 - 0 - 0 - 0
+740 - Redes Informáticas - Arevalo - LuMieJu 7 a 9 - 10 - 200 - 655 - 0 - 0 - 0
+1601 - Ingeniería en Software - Perales - LuMieJu 9 a 11 - 10 - 200 - 1275 - 0 - 0 - 0
+1603 - Derecho Informático I - Catalan - LuMieJu 11 a 13 - 10 - 200 - 0 - 0 - 0 - 0
+1604 - Derecho Informático II - Hoyos - LuMieJu 13 a 15 - 10 - 200 - 1603 - 0 - 0 - 0
+1652 - Teoría de los Lenguajes y Algoritmos - Camaño - LuMieJu 15 a 17 - 10 - 200 - 651 - 0 - 0 - 0
+1653 - Tecnología de los Computadores y Sistemas Operativos - Juarez - LuMieJu 17 a 19 - 10 - 200 - 1275 - 0 - 0 - 0
+1654 - Construcción de Aplicaciones Informáticas - Mendez- LuJu 19 a 21 - 10 - 200 - 1652- 0 - 0 - 0
+1659 - Auditoría y Seguridad de los Sistemas de Información - Barranco - LuMieJu 21 a 23 - 10 - 200 - 657 - 658 - 0 - 0
+1660 - Actuación Profesional del Licenciado en Sistemas de las Organizaciones - Blasco - MaJuVie 7 a 9 - 10 - 200 - 740 - 1654 - 0 - 0
+1799 - Gestión de Recursos Informáticos - Velazquez - MaJuVie 9 a 11 - 10 - 200 - 1601 - 1659 - 0 - 0
+459 - Dirección General (optativa) - Gimenez - LuVie 9 a 11hs - 10 - 200 - 0 - 0 - 0 - 0
+1715 - Gobierno de Datos, Analítica e Inteligencia de Negocios (optativa) - Valdivia - MaJuVie 13 a 15 - 10 - 200 - 0 - 0 - 0 - 0
+716 - Gestión de la Innovación y Tecnología Informática (optativa) - Muriel - MaJuVie 15 a 17 - 10 - 200 - 0 - 0 - 0 - 0
+739 - Comercio Electrónico (optativa) - Guevara - MaJuVie 17 a 19 - 10 - 200 - 0 - 0 - 0 - 0

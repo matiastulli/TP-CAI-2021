@@ -1,0 +1,41 @@
+247 - Teoría Contable - Llanos - LuJu 7 a 9 - 10 - 200 - 0 - 0 - 0 - 0
+248 - Estadística I - Catala - LuJu 9 a 11 - 10 - 200 - 241 - 0 - 0 - 0
+249 - Historia Económica y Social Argentina - Holgado - LuJu 11 a 13 - 10 - 200 - 242 - 244 - 246 - 0
+261 - Teoría Política y Derecho Público - Balaguer - LuJu 13 a 15 - 10 - 200 - 0 - 0 - 0 - 0
+262 - Macroeconomía I - Barros - LuJu 15 a 17 - 10 - 200 - 241 - 242 - 0 - 0
+284 - Análisis Matemático II - Domingo - LuJu 17 a 19 - 10 - 200 - 241 - 245 - 0 - 0
+273 - Instituciones del Derecho Privado - Barroso - LuJu 19 a 21 - 10 - 200 - 0 - 0 - 0 - 0
+276 - Cálculo Financiero - Morcillo - LuJu 21 a 23 - 10 - 200 - 248 - 0 - 0 - 0
+279 - Administración Financiera - Jaramillo - MaVie 7 a 9 - 10 - 200 - 262 - 276 - 0 - 0
+283 - Macroeconomía II - Martorell - MaVie 9 a 11 - 10 - 200 - 262 - 288 - 0 - 0
+285 - Estadística II - Prada - MaVie 11 a 13 - 10 - 200 - 248 - 284 - 0 - 0
+286 - Microeconomía II - Patiño - MaVie 13 a 15 - 10 - 200 - 284 - 290 - 0 - 0
+287 - Geografía Económica - Nuñez - MaVie 15 a 17 - 10 - 200 - 249 - 0 - 0 - 0
+288 - Matemática para Economistas - Barrientos - MaVie 17 a 19 - 10 - 200 - 284 - 0 - 0 - 0
+289 - Epistemología de la Economía - Miro - MaVie 19 a 21 - 10 - 200 - 244 - 262 - 290 - 0
+290 - Microeconomía I (para Economistas) - Otero - MaVie 21 a 23 - 10 - 200 - 242 - 284 - 0 - 0
+552 - Dinero, Crédito y Bancos - Agustin - MieVie 9 a 11 - 10 - 200 - 283 - 286 - 288 - 0
+751 - Estadística Actuarial - Arevalo - LuMieJu 7 a 9 - 10 - 200 - 285 - 0 - 0 - 0
+752 - Análisis Numérico - Perales - LuMieJu 9 a 11 - 10 - 200 - 288 - 0 - 0 - 0
+753 - Biometría Actuarial - Catalan - LuMieJu 11 a 13 - 10 - 200 - 276 - 751 - 752 - 0
+754 - Teoría Actuarial de los Seguros Personales - Hoyos - LuMieJu 13 a 15 - 10 - 200 - 753 - 0 - 0 - 0
+755 - Teoría Actuarial de los Seguros Patrimoniales - Camaño - LuMieJu 15 a 17 - 10 - 200 - 276 - 751 - 752 - 0
+756 - Teoría Actuarial de los Fondos y Planes de Jubilaciones, Pensiones y Salud - Juarez - LuMieJu 17 a 19 - 10 - 200 - 754 - 0 - 0 - 0
+757 - Teoría de Equilibrio Actuarial - Pérez - LuMieJu 19 a 21 - 10 - 200 - 754 - 755 - 0 - 0
+758 - Bases Actuariales de las Inversiones y Financiaciones - Barranco - LuMieJu 21 a 23 - 10 - 200 - 276 - 751 - 0 - 0
+759 - Seminario de Integración y Aplicación - Blasco - MaJuVie 7 a 9 - 10 - 200 - 754 - 755 - 756 - 757
+721 - Poder Económico y Derechos Humanos (electiva) - Velazquez - MaJuVie 9 a 11 - 10 - 200 - 0 - 0 - 0 - 0
+724 - Economía de la Seguridad Social (electiva) - Varela - MaJuVie 11 a 13 - 10 - 200 - 0 - 0 - 0 - 0
+786 - Derecho de Seguros (electiva) - Valdivia - MaJuVie 13 a 15 - 10 - 200 - 0 - 0 - 0 - 0
+551 - Econometría (optativa) - Muriel - MaJuVie 15 a 17 - 10 - 200 - 0 - 0 - 0 - 0
+717 - Modelos y Proyecciones Actuariales (optativa) - Guevara - MaJuVie 17 a 19 - 10 - 200 - 0 - 0 - 0 - 0
+720 - Demografía y Seguridad Social (optativa) - Atienza - MaJuVie 19 a 21 - 10 - 200 - 753 - 0 - 0 - 0
+722 - Aprendizaje Estructurado (optativa) - Zamorano - MaJuVie 21 a 23 - 10 - 200 - 289 - 0 - 0 - 0
+725 - Bases Estadísticas y Actuariales de las Prestaciones de Salud (optativa) - Puertas - LuJu 9 a 11 - 10 - 200 - 0 - 0 - 0 - 0
+741 - Elementos de Topología para Economía y Gestión (optativa) - Olmedo - LuJu 9 a 11 - 10 - 200 - 288 - 0 - 0 - 0
+746 - Computación Científica Actuarial (optativa) - Narvaez - LuJu 9 a 11 - 10 - 200 - 0 - 0 - 0 - 0
+750 - Métodos Cuantitativos (optativa) - Buendia - LuJu 9 a 11 - 10 - 200 - 0 - 0 - 0 - 0
+763 - Teoría de los Juegos (optativa) - Calle - LuJu 9 a 11 - 10 - 200 - 0 - 0 - 0 - 0
+784 - Análisis Numérico Avanzado (optativa) - Benito - LuJu 9 a 11 - 10 - 200 - 0 - 0 - 0 - 0
+785 - Cálculo Financiero -Nuevo Enfoque- (optativa) - Montes - LuJu 9 a 11 - 10 - 200 - 0 - 0 - 0 - 0
+791 - Seminario de Ética de las Ocupaciones (optativa) - Solano - LuJu 9 a 11 - 10 - 200 - 0 - 0 - 0 - 0

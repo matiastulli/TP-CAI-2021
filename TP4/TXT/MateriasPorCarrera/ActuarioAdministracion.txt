@@ -1,0 +1,42 @@
+247 - Teoría Contable - Gimenez - LuMieVie 19 a 21hs - 10 - 200 - 0 - 0 - 0 - 0
+248 - Estadística I - Gonzalez - LuJue 19 a 21hs - 10 - 200 - 241 - 0 - 0 - 0
+249 - Historia Económica y Social Argentina - Crespo - LuMierVie 15 a 17hs - 10 - 200 - 242 - 244 - 246 
+250 - Microeconomía I - Gerez - MaVie 13 a 15hs - 10 - 200 - 241 - 242 - 0 - 0
+251 - Instituciones de Derecho Público - Lugones - MarVie 19 a 21hs - 10 - 200 - 0 - 0 - 0 - 0
+252 - Administración General - Gomez - LuMieVie 11 a 13hs - 10 - 200 - 0 - 0 - 0 - 0
+273 - Instituciones del Derecho Privado - Montesanto - LuMaVie 21 a 23hs - 10 - 200 - 0 - 0 - 0 - 0
+274 - Sistemas Administrativos - Gallego - MaVie 19 a 21hs - 10 - 200 - 252 - 0 - 0 - 0
+275 - Tecnología de la Información - Gandolfo - LuMieVie 15 a 17hs - 10 - 200 - 274 - 0 - 0 - 0
+276 - Cálculo Financiero - Otto - LuMieVi 7 a 9hs - 10 - 200 - 248 - 0 - 0 - 0
+277 - Gestión y Costos - Jaunaera - MaVie 19 a 21hs - 10 - 200 - 247 - 0 - 0 - 0
+278 - Macroeconomía y Política Económica - Ruggeri - LuVie 15 a 17hs - 10 - 200 - 250 - 0 - 0 - 0
+279 - Administración Financiera - Gimenes - LuMieVi 19 a 21hs - 10 - 200 - 0 - 0 - 0 - 0
+284 - Análisis Matemático II - Blanco - LuMieVi 11 a 13hs - 10 - 200 - 241 - 245 - 0 - 0
+285 - Estadística II - Gales - LuMierVi 19 a 21hs - 10 - 200 - 248 - 284 - 0 - 0
+288 - Matemática para Economistas - Crotti - LuVie 21 a 23hs - 10 - 200 - 284 - 0 - 0 - 0
+552 - Dinero, Crédito y Bancos - Messi - LuMieJu 19 a 21hs - 10 - 200 - 278 - 288 - 0 - 0
+751 - Estadística Actuarial -Gacol - MaVie 9 a 11hs - 10 - 200 - 285 - 288 - 0 - 0
+752 - Análisis Numérico - Mbappe - LuMieVi 13 a 15hs - 10 - 200 - 288 - 0 - 0 - 0
+753 - Biometría Actuarial - Fernandez - LuMieVi 11 a 13hs - 10 - 200 - 276 - 751 - 752 - 0
+754 - Teoría Actuarial de los Seguros Personales - Pandolfi - LuVi 21 a 23hs - 10 - 200 - 753 - 0 - 0 - 0
+755 - Teoría Actuarial de los Seguros Patrimoniales - Fernandez- LuMieJu 7 a 9hs - 10 - 200 - 276 - 751 - 752 - 0
+756 - Teoría Actuarial de los Fondos y Planes de Jubilaciones, Pensiones y Salud - Falcon - LuMieVi 19 a 21hs - 10 - 200 - 754 - 0 - 0 - 0
+757 - Teoría de Equilibrio Actuarial - Artopoulos - LuMie 15 a 17hs - 10 - 200 - 754 - 755 - 0 - 0
+758 - Bases Actuariales de las Inversiones y Financiaciones - Gimenez - LuMieVi 11 a 13hs - 10 - 200 - 276 - 751 - 0 - 0
+759 - Seminario de Integración y Aplicación - Perez - MierVi 17 a 19hs - 10 - 200 - 754 - 755 - 756 - 757
+721 - Poder Económico y Derechos Humanos(electiva) - Monroe - LuVie 15 a 17hs - 10 - 200 - 0 - 0 - 0 - 0
+724 - Economía de la Seguridad Social(electiva) - Bustamante - LuMie 11 a 13hs - 10 - 200 - 0 - 0 - 0 - 0
+786 - Derechos de Seguros(electiva) - Jorgazo - MaJu 19 a 21hs - 10 - 200 - 0 - 0 - 0 - 0
+551 - Econometría (optativa) - Muriel - MaJuVie 15 a 17 - 10 - 200 - 0 - 0 - 0 - 0
+717 - Modelos y Proyecciones Actuariales (optativa) - Guevara - MaJuVie 17 a 19hs - 10 - 200 - 0 - 0 - 0 - 0
+720 - Demografía y Seguridad Social (optativa) - Atienza - MaJuVie 19 a 21hs - 10 - 200 - 753 - 0 - 0 - 0
+722 - Aprendizaje Estructurado (optativa) - Zamorano - MaJuVie 21 a 23hs - 10 - 200 - 289 - 0 - 0 - 0
+725 - Bases Estadísticas y Actuariales de las Prestaciones de Salud (optativa) - Puertas - LuJu 9 a 11hs - 10 - 200 - 0 - 0 - 0 - 0
+741 - Elementos de Topología para Economía y Gestión (optativa) - Olmedo - LuJu 9 a 11hs - 10 - 200 - 288 - 0 - 0 - 0
+746 - Computación Científica Actuarial (optativa) - Narvaez - LuJu 9 a 11hs - 10 - 200 - 0 - 0 - 0 - 0
+750 - Métodos Cuantitativos (optativa) - Buendia - LuJu 9 a 11hs - 10 - 200 - 0 - 0 - 0 - 0
+763 - Teoría de los Juegos (optativa) - Calle - LuJu 9 a 11hs - 10 - 200 - 0 - 0 - 0 - 0
+784 - Análisis Numérico Avanzado (optativa) - Benito - LuJu 9 a 11hs - 10 - 200 - 0 - 0 - 0 - 0
+785 - Cálculo Financiero -Nuevo Enfoque- (optativa) - Montes - LuJu 9 a 11hs - 10 - 200 - 0 - 0 - 0 - 0
+791 - Seminario de Ética de las Ocupaciones (optativa) - Solano - LuJu 9 a 11hs - 10 - 200 - 0 - 0 - 0 - 0
+
