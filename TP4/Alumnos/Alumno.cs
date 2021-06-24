@@ -169,7 +169,8 @@ namespace TP4
                 var ingreso = Console.ReadLine();
                 if (!obligatorio && string.IsNullOrWhiteSpace(ingreso))
                 {
-                    return 0;
+                    Console.WriteLine("No ha ingresado un numero de registro válido");
+                    continue;
                 }
 
                 if (!int.TryParse(ingreso, out var numeroRegistro))
@@ -193,7 +194,8 @@ namespace TP4
                 var ingreso = Console.ReadLine();
                 if (!obligatorio && string.IsNullOrWhiteSpace(ingreso))
                 {
-                    return 0;
+                    Console.WriteLine("No ha ingresado una contraseña válida");
+                    continue;
                 }
 
                 if (!int.TryParse(ingreso, out var Password))

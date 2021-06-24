@@ -7,34 +7,43 @@ namespace TP4
 {
     public class Program
     {
+        
         static void Main(string[] args)
         {
-            Console.WriteLine();
-            Console.WriteLine("-------------");
-            Console.WriteLine("MENU PRINCIPAL");
-            Console.WriteLine("-------------");
-            Console.WriteLine("¿Que tipo de usuario es usted?");
-            Console.WriteLine("1 - Administrador");
-            Console.WriteLine("2 - Estudiante");
-            Console.WriteLine("0 - Salir del sitio");
-            var respuesta = Console.ReadLine();
+            bool entrarLoop = true;
 
-
-            switch (respuesta)
+            do
             {
-                case "1":
-                    Inicio(respuesta);
-                    break;
-                case "2":
-                    Inicio(respuesta);
-                    break;
-                case "0":
-                    Environment.Exit(0);
-                    break;
-                default:
-                    Console.WriteLine("No ha ingresado una opción del menú\n");
-                    break;
-            }
+                Console.WriteLine();
+                Console.WriteLine("-------------");
+                Console.WriteLine("MENU PRINCIPAL");
+                Console.WriteLine("-------------");
+                Console.WriteLine("¿Que tipo de usuario es usted?");
+                Console.WriteLine("1 - Administrador");
+                Console.WriteLine("2 - Estudiante");
+                Console.WriteLine("0 - Salir del sitio");
+                var respuesta = Console.ReadLine();
+
+
+                switch (respuesta)
+                {
+                    case "1":
+                        Inicio(respuesta);
+                        break;
+                    case "2":
+                        Inicio(respuesta);
+                        break;
+                    case "0":
+                        Environment.Exit(0);
+                        break;
+                    default:
+                        Console.WriteLine("No ha ingresado una opción del menú\n");
+                        entrarLoop = false;
+                        break;
+                }
+
+            } while (entrarLoop == false);
+           
         }
 
         private static void Inicio(string respuesta)
@@ -68,7 +77,6 @@ namespace TP4
                 }
                 persona?.Mostrar();
 
-
                 int CodigoPersona = persona.NRegistro;
                 double rankingAlumno = (int)(persona.Ranking);
 
@@ -85,40 +93,41 @@ namespace TP4
 
         private static void MenuAdmin()
         {
-            Console.WriteLine();
-            Console.WriteLine("-------------");
-            Console.WriteLine("MENU ADMINISTRADOR");
-            Console.WriteLine("-------------");
-            Console.WriteLine("1 - Asignar materias a los alumnos");
-            Console.WriteLine("2 - Ver reclamos");
-            Console.WriteLine("3 - Actualizar estado de reclamos");
-            Console.WriteLine("0 - Salir del sitio");
-            var respuesta = Console.ReadLine();
+                Console.WriteLine();
+                Console.WriteLine("-------------");
+                Console.WriteLine("MENU ADMINISTRADOR");
+                Console.WriteLine("-------------");
+                Console.WriteLine("1 - Asignar materias a los alumnos");
+                Console.WriteLine("2 - Ver reclamos");
+                Console.WriteLine("3 - Actualizar estado de reclamos");
+                Console.WriteLine("0 - Salir del sitio");
+                var respuesta = Console.ReadLine();
 
-            switch (respuesta)
-            {
-                case "1":
-                    AsignarMaterias();
-                    Console.WriteLine("Materias asignadas con exito!");
-                    MenuAdmin();
-                    break;
-                case "2":
-                    Reclamos.VerReclamosAdministrador();
-                    MenuAdmin();
-                    break;
-                case "3":
-                    Reclamos.VerReclamosAdministrador();
-                    Reclamos.ActualizarEstadoReclamo();
-                    Reclamos.EscribirReclamosEnTXT();
-                    MenuAdmin();
-                    break;
-                case "0":
-                    Environment.Exit(0);
-                    break;
-                default:
-                    Console.WriteLine("No ha ingresado una opción del menú\n");
-                    break;
-            }
+                switch (respuesta)
+                {
+                    case "1":
+                        AsignarMaterias();
+                        Console.WriteLine("Materias asignadas con exito!");
+                        MenuAdmin();
+                        break;
+                    case "2":
+                        Reclamos.VerReclamosAdministrador();
+                        MenuAdmin();
+                        break;
+                    case "3":
+                        Reclamos.VerReclamosAdministrador();
+                        Reclamos.ActualizarEstadoReclamo();
+                        Reclamos.EscribirReclamosEnTXT();
+                        MenuAdmin();
+                        break;
+                    case "0":
+                        Environment.Exit(0);
+                        break;
+                    default:
+                        Console.WriteLine("No ha ingresado una opción del menú\n");
+                        MenuAdmin();
+                        break;
+                }
         }
 
         private static void AsignarMaterias()
@@ -133,98 +142,100 @@ namespace TP4
 
         private static void MenuEstudiante(int CodigoPersona, double rankingAlumno)
         {
-            Console.WriteLine();
-            Console.WriteLine("-------------");
-            Console.WriteLine("MENU ESTUDIANTE");
-            Console.WriteLine("-------------");
-            Console.WriteLine("¿Que desea hacer?");
-            Console.WriteLine("1 - Inscribirse a materias");
-            Console.WriteLine("2 - Ver asignaciones");
-            Console.WriteLine("3 - Realizar un reclamo");
-            Console.WriteLine("4 - Ver el estado de mis reclamos");
-            Console.WriteLine("0 - Salir del sitio");
+                Console.WriteLine();
+                Console.WriteLine("-------------");
+                Console.WriteLine("MENU ESTUDIANTE");
+                Console.WriteLine("-------------");
+                Console.WriteLine("¿Que desea hacer?");
+                Console.WriteLine("1 - Inscribirse a materias");
+                Console.WriteLine("2 - Ver asignaciones");
+                Console.WriteLine("3 - Realizar un reclamo");
+                Console.WriteLine("4 - Ver el estado de mis reclamos");
+                Console.WriteLine("0 - Salir del sitio");
 
-            var eleccion = Console.ReadLine();
+                var eleccion = Console.ReadLine();
 
-            switch (eleccion)
-            {
-                case "1":
-                    bool Estado = InscripcionesPorAlumno.ValidarInscripcionesAlumno(CodigoPersona);
-                    if (Estado == false)
-                    {
+                switch (eleccion)
+                {
+                    case "1":
+                        bool Estado = InscripcionesPorAlumno.ValidarInscripcionesAlumno(CodigoPersona);
+                        if (Estado == false)
+                        {
+                            MenuEstudiante(CodigoPersona, rankingAlumno);
+                        }
+                        else
+                        {
+                            SeleccionarCarrera(CodigoPersona, rankingAlumno);
+                        }
+                        break;
+                    case "2":
+                        Asignacion.LeerAsignaciones();
+                        Asignacion.MostrarAsignaciones(CodigoPersona);
                         MenuEstudiante(CodigoPersona, rankingAlumno);
-                    }
-                    else
-                    {
-                        SeleccionarCarrera(CodigoPersona, rankingAlumno);
-                    }
-                    break;
-                case "2":
-                    Asignacion.LeerAsignaciones();
-                    Asignacion.MostrarAsignaciones(CodigoPersona);
-                    MenuEstudiante(CodigoPersona, rankingAlumno);
-                    break;
-                case "3":
-                    Reclamos.RealizarReclamo(CodigoPersona);
-                    Reclamos.EscribirReclamosEnTXT();
-                    MenuEstudiante(CodigoPersona, rankingAlumno);
-                    break;
-                case "4":
-                    Reclamos.VerReclamosAlumno(CodigoPersona);
-                    MenuEstudiante(CodigoPersona, rankingAlumno);
-                    break;
-                case "0":
-                    Environment.Exit(0);
-                    break;
-                default:
-                    Console.WriteLine("No ha ingresado una opción del menú\n");
-                    break;
-            }
+                        break;
+                    case "3":
+                        Reclamos.RealizarReclamo(CodigoPersona);
+                        Reclamos.EscribirReclamosEnTXT();
+                        MenuEstudiante(CodigoPersona, rankingAlumno);
+                        break;
+                    case "4":
+                        Reclamos.VerReclamosAlumno(CodigoPersona);
+                        MenuEstudiante(CodigoPersona, rankingAlumno);
+                        break;
+                    case "0":
+                        Environment.Exit(0);
+                        break;
+                    default:
+                        Console.WriteLine("No ha ingresado una opción del menú\n");
+                        MenuEstudiante(CodigoPersona, rankingAlumno);
+                        break;
+                }
+            
         }
 
         private static void SeleccionarCarrera(int CodigoPersona, double rankingAlumno)
         {
-            Console.WriteLine("\nSELECCIONAR CARRERA");
-            Console.WriteLine("Para luego anotarse a las materias");
-            Console.WriteLine("1 - Economia");
-            Console.WriteLine("2 - Sistemas");
-            Console.WriteLine("3 - Contador Publico");
-            Console.WriteLine("4 - Actuario en administracion");
-            Console.WriteLine("5 - Actuario en economia");
-            Console.WriteLine("6 - Administracion de empresas");
-            Console.WriteLine("0 - Salir del sitio");
+                Console.WriteLine("\nSELECCIONAR CARRERA");
+                Console.WriteLine("Para luego anotarse a las materias");
+                Console.WriteLine("1 - Economia");
+                Console.WriteLine("2 - Sistemas");
+                Console.WriteLine("3 - Contador Publico");
+                Console.WriteLine("4 - Actuario en administracion");
+                Console.WriteLine("5 - Actuario en economia");
+                Console.WriteLine("6 - Administracion de empresas");
+                Console.WriteLine("0 - Salir del sitio");
 
 
-            var eleccionCarrera = Console.ReadLine();
+                var eleccionCarrera = Console.ReadLine();
 
-            switch (eleccionCarrera)
-            {
-                case "1":
-                    MostrarMaterias(eleccionCarrera, CodigoPersona, rankingAlumno);
-                    break;
-                case "2":
-                    MostrarMaterias(eleccionCarrera, CodigoPersona, rankingAlumno);
-                    break;
-                case "3":
-                    MostrarMaterias(eleccionCarrera, CodigoPersona, rankingAlumno);
-                    break;
-                case "4":
-                    MostrarMaterias(eleccionCarrera, CodigoPersona, rankingAlumno);
-                    break;
-                case "5":
-                    MostrarMaterias(eleccionCarrera, CodigoPersona, rankingAlumno);
-                    break;
-                case "6":
-                    MostrarMaterias(eleccionCarrera, CodigoPersona, rankingAlumno);
-                    break;
-                case "0":
-                    Environment.Exit(0);
-                    break;
-                default:
-                    Console.WriteLine("No ha ingresado una opción del menú\n");
-                    SeleccionarCarrera(CodigoPersona, rankingAlumno);
-                    break;
-            }
+                switch (eleccionCarrera)
+                {
+                    case "1":
+                        MostrarMaterias(eleccionCarrera, CodigoPersona, rankingAlumno);
+                        break;
+                    case "2":
+                        MostrarMaterias(eleccionCarrera, CodigoPersona, rankingAlumno);
+                        break;
+                    case "3":
+                        MostrarMaterias(eleccionCarrera, CodigoPersona, rankingAlumno);
+                        break;
+                    case "4":
+                        MostrarMaterias(eleccionCarrera, CodigoPersona, rankingAlumno);
+                        break;
+                    case "5":
+                        MostrarMaterias(eleccionCarrera, CodigoPersona, rankingAlumno);
+                        break;
+                    case "6":
+                        MostrarMaterias(eleccionCarrera, CodigoPersona, rankingAlumno);
+                        break;
+                    case "0":
+                        Environment.Exit(0);
+                        break;
+                    default:
+                        Console.WriteLine("No ha ingresado una opción del menú\n");
+                        SeleccionarCarrera(CodigoPersona, rankingAlumno);
+                        break;
+                }
         }
 
         private static void MostrarMaterias(string eleccionCarrera, int CodigoPersona, double rankingAlumno)
