@@ -64,7 +64,7 @@ namespace TP4
 
 
         //ID
-        public static Administrador Seleccionar()
+        public static Administrador SeleccionarAdministrador()
         {
             var modelo = CrearModeloBusqueda();
             foreach (var persona in administrador)

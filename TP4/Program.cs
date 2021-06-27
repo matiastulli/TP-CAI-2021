@@ -50,7 +50,7 @@ namespace TP4
         {
             if (respuesta == "1")
             {
-                var persona = Administrador.Seleccionar();
+                var persona = Administrador.SeleccionarAdministrador();
                 if (persona == null)
                 {
                     Inicio(respuesta);
@@ -70,7 +70,7 @@ namespace TP4
             }
             else if (respuesta == "2")
             {
-                var persona = Alumno.Seleccionar();
+                var persona = Alumno.SeleccionarAlumno();
                 if (persona == null)
                 {
                     Inicio(respuesta);

@@ -68,7 +68,7 @@ namespace TP4
         }
 
         //Registro
-        public static Alumno Seleccionar()
+        public static Alumno SeleccionarAlumno()
         {
             var modelo = CrearModeloBusqueda();
             foreach (var persona in alumnos)
