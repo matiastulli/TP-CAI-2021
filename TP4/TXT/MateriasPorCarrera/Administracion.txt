@@ -30,7 +30,7 @@
 794 - Administración Pública (electiva) - Bolton- LuJu 9 a 11 - 10 - 200 - 0 - 0 - 0 - 0
 795 - Conducción de Equipos de Trabajo (electiva) - Tanaro - MaJuVie 21 a 23 - 10 - 200 - 0 - 0 - 0 - 0
 796 - Comunicaciones en la Organización (electiva) - Tulli- LuMieJu 9 a 11 - 10 - 200 - 0 - 0 - 0 - 0
-709 - Derecho Procesal -Recursos- (optativa) - Varela - MaJuVie 11 a 13 - 10 - 200 - 0 - 0 - 0 - 0
+709 - Derecho Procesal (Recursos) (optativa) - Varela - MaJuVie 11 a 13 - 10 - 200 - 0 - 0 - 0 - 0
 710 - Dinámica Estratégica Operacional (optativa) - Valdivia - MaJuVie 13 a 15 - 10 - 200 - 0 - 0 - 0 - 0
 718 - Calidad y Productividad (optativa) - Muriel - MaJuVie 15 a 17 - 10 - 200 - 0 - 0 - 0 - 0
 719 - Gestión de Políticas Públicas en el Contexto Socioeconómico (optativa) - Guevara - MaJuVie 17 a 19 - 10 - 200 - 0 - 0 - 0 - 0

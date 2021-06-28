@@ -37,5 +37,5 @@
 750 - Métodos Cuantitativos (optativa) - Buendia - LuJu 9 a 11 - 10 - 200 - 0 - 0 - 0 - 0
 763 - Teoría de los Juegos (optativa) - Calle - LuJu 9 a 11 - 10 - 200 - 0 - 0 - 0 - 0
 784 - Análisis Numérico Avanzado (optativa) - Benito - LuJu 9 a 11 - 10 - 200 - 0 - 0 - 0 - 0
-785 - Cálculo Financiero -Nuevo Enfoque- (optativa) - Montes - LuJu 9 a 11 - 10 - 200 - 0 - 0 - 0 - 0
+785 - Cálculo Financiero (Nuevo Enfoque) (optativa) - Montes - LuJu 9 a 11 - 10 - 200 - 0 - 0 - 0 - 0
 791 - Seminario de Ética de las Ocupaciones (optativa) - Solano - LuJu 9 a 11 - 10 - 200 - 0 - 0 - 0 - 0
