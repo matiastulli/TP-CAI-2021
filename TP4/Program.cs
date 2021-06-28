@@ -696,7 +696,7 @@ namespace TP4
                     }
                     else if(CantidadMax <= 0 )
                     {
-                        Console.WriteLine("¡No se puede inscribir a más materias, accedera a sus inscripciones hasta el momento!\n");
+                        Console.WriteLine("¡Ya alcanzo el limite de materias al que puede inscribirse!\n");
                         MenuEstudiante(CodigoPersona, rankingAlumno);
 
                     }
