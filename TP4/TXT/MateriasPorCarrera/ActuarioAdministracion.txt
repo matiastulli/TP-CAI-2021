@@ -1,6 +1,6 @@
 247 - Teoría Contable - Gimenez - LuMieVie 19 a 21hs - 10 - 200 - 0 - 0 - 0 - 0
 248 - Estadística I - Gonzalez - LuJue 19 a 21hs - 10 - 200 - 241 - 0 - 0 - 0
-249 - Historia Económica y Social Argentina - Crespo - LuMierVie 15 a 17hs - 10 - 200 - 242 - 244 - 246 
+249 - Historia Económica y Social Argentina - Crespo - LuMierVie 15 a 17hs - 10 - 200 - 242 - 244 - 246 - 0
 250 - Microeconomía I - Gerez - MaVie 13 a 15hs - 10 - 200 - 241 - 242 - 0 - 0
 251 - Instituciones de Derecho Público - Lugones - MarVie 19 a 21hs - 10 - 200 - 0 - 0 - 0 - 0
 252 - Administración General - Gomez - LuMieVie 11 a 13hs - 10 - 200 - 0 - 0 - 0 - 0
@@ -39,4 +39,3 @@
 784 - Análisis Numérico Avanzado (optativa) - Benito - LuJu 9 a 11hs - 10 - 200 - 0 - 0 - 0 - 0
 785 - Cálculo Financiero (Nuevo Enfoque) (optativa) - Montes - LuJu 9 a 11hs - 10 - 200 - 0 - 0 - 0 - 0
 791 - Seminario de Ética de las Ocupaciones (optativa) - Solano - LuJu 9 a 11hs - 10 - 200 - 0 - 0 - 0 - 0
-
