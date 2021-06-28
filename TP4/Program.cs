@@ -367,18 +367,30 @@ namespace TP4
                 }
                 else
                 {
-                    Console.WriteLine($"Marcaste como aprobada la materia {materia.CodigoMateria}. Está usted seguro? S/N\n");
-                    var key = Console.ReadLine();
-                    if (key.ToUpper() == "S")
-                    {
-                        Console.WriteLine($"{materia.NombreMateria} ha sido marcada como aprobada");
-                        MateriasAprobadasPorAlumno.AgregarMateria(CodigoPersona, materia.CodigoMateria, materia.NombreMateria);
-                    }
-                    else
-                    {
-                        Console.WriteLine($"{materia.NombreMateria} NO ha sido marcada como aprobada");
+                    bool Confirmacion = true;
 
-                    }
+                    do
+                    {
+                        Console.WriteLine($"Marcaste como aprobada la materia {materia.CodigoMateria}. Está usted seguro? S/N\n");
+                        var key = Console.ReadLine();
+                        if (key.ToUpper() == "S")
+                        {
+                            Console.WriteLine($"{materia.NombreMateria} ha sido marcada como aprobada");
+                            MateriasAprobadasPorAlumno.AgregarMateria(CodigoPersona, materia.CodigoMateria, materia.NombreMateria);
+                            Confirmacion = false;
+                        }
+                        else if (key.ToUpper() == "N")
+                        {
+                            Console.WriteLine($"{materia.NombreMateria} NO ha sido marcada como aprobada");
+                            SeleccionarAprobada(eleccionCarrera, CodigoPersona, rankingAlumno);
+                            Confirmacion = false;
+                        }
+                        else
+                        {
+                            Console.WriteLine($"No ha seleccionado una opción. Debe de marcar S o N\n");
+                        }
+
+                    } while (Confirmacion == true);
 
                     otraAprobada(eleccionCarrera, CodigoPersona, rankingAlumno);
                 }
@@ -400,20 +412,31 @@ namespace TP4
                 }
                 else
                 {
-                    
+                    bool Confirmacion = true;
+
+                    do
+                    {
                         Console.WriteLine($"Marcaste como aprobada la materia {materia.CodigoMateria}. Está usted seguro? S/N\n");
                         var key = Console.ReadLine();
                         if (key.ToUpper() == "S")
                         {
                             Console.WriteLine($"{materia.NombreMateria} ha sido marcada como aprobada");
                             MateriasAprobadasPorAlumno.AgregarMateria(CodigoPersona, materia.CodigoMateria, materia.NombreMateria);
+                            Confirmacion = false;
+                        }
+                        else if (key.ToUpper() == "N")
+                        {
+                            Console.WriteLine($"{materia.NombreMateria} NO ha sido marcada como aprobada");
+                            SeleccionarAprobada(eleccionCarrera, CodigoPersona, rankingAlumno);
+                            Confirmacion = false;
                         }
                         else
                         {
-                            Console.WriteLine($"{materia.NombreMateria} NO ha sido marcada como aprobada");
-
+                            Console.WriteLine($"No ha seleccionado una opción. Debe de marcar S o N\n");
                         }
-                    
+
+                    } while (Confirmacion == true);
+
 
                     otraAprobada(eleccionCarrera, CodigoPersona, rankingAlumno);
                 }
@@ -435,18 +458,30 @@ namespace TP4
                 }
                 else
                 {
-                    Console.WriteLine($"Marcaste como aprobada la materia {materia.CodigoMateria}. Está usted seguro? S/N\n");
-                    var key = Console.ReadLine();
-                    if (key.ToUpper() == "S")
-                    {
-                        Console.WriteLine($"{materia.NombreMateria} ha sido marcada como aprobada");
-                        MateriasAprobadasPorAlumno.AgregarMateria(CodigoPersona, materia.CodigoMateria, materia.NombreMateria);
-                    }
-                    else
-                    {
-                        Console.WriteLine($"{materia.NombreMateria} NO ha sido marcada como aprobada");
+                    bool Confirmacion = true;
 
-                    }
+                    do
+                    {
+                        Console.WriteLine($"Marcaste como aprobada la materia {materia.CodigoMateria}. Está usted seguro? S/N\n");
+                        var key = Console.ReadLine();
+                        if (key.ToUpper() == "S")
+                        {
+                            Console.WriteLine($"{materia.NombreMateria} ha sido marcada como aprobada");
+                            MateriasAprobadasPorAlumno.AgregarMateria(CodigoPersona, materia.CodigoMateria, materia.NombreMateria);
+                            Confirmacion = false;
+                        }
+                        else if (key.ToUpper() == "N")
+                        {
+                            Console.WriteLine($"{materia.NombreMateria} NO ha sido marcada como aprobada");
+                            SeleccionarAprobada(eleccionCarrera, CodigoPersona, rankingAlumno);
+                            Confirmacion = false;
+                        }
+                        else
+                        {
+                            Console.WriteLine($"No ha seleccionado una opción. Debe de marcar S o N\n");
+                        }
+
+                    } while (Confirmacion == true);
 
                     otraAprobada(eleccionCarrera, CodigoPersona, rankingAlumno);
                 }
@@ -468,18 +503,30 @@ namespace TP4
                 }
                 else
                 {
-                    Console.WriteLine($"Marcaste como aprobada la materia {materia.CodigoMateria}. Está usted seguro? S/N\n");
-                    var key = Console.ReadLine();
-                    if (key.ToUpper() == "S")
-                    {
-                        Console.WriteLine($"{materia.NombreMateria} ha sido marcada como aprobada");
-                        MateriasAprobadasPorAlumno.AgregarMateria(CodigoPersona, materia.CodigoMateria, materia.NombreMateria);
-                    }
-                    else
-                    {
-                        Console.WriteLine($"{materia.NombreMateria} NO ha sido marcada como aprobada");
+                    bool Confirmacion = true;
 
-                    }
+                    do
+                    {
+                        Console.WriteLine($"Marcaste como aprobada la materia {materia.CodigoMateria}. Está usted seguro? S/N\n");
+                        var key = Console.ReadLine();
+                        if (key.ToUpper() == "S")
+                        {
+                            Console.WriteLine($"{materia.NombreMateria} ha sido marcada como aprobada");
+                            MateriasAprobadasPorAlumno.AgregarMateria(CodigoPersona, materia.CodigoMateria, materia.NombreMateria);
+                            Confirmacion = false;
+                        }
+                        else if (key.ToUpper() == "N")
+                        {
+                            Console.WriteLine($"{materia.NombreMateria} NO ha sido marcada como aprobada");
+                            SeleccionarAprobada(eleccionCarrera, CodigoPersona, rankingAlumno);
+                            Confirmacion = false;
+                        }
+                        else
+                        {
+                            Console.WriteLine($"No ha seleccionado una opción. Debe de marcar S o N\n");
+                        }
+
+                    } while (Confirmacion == true);
 
                     otraAprobada(eleccionCarrera, CodigoPersona, rankingAlumno);
                 }
@@ -501,18 +548,30 @@ namespace TP4
                 }
                 else
                 {
-                    Console.WriteLine($"Marcaste como aprobada la materia {materia.CodigoMateria}. Está usted seguro? S/N\n");
-                    var key = Console.ReadLine();
-                    if (key.ToUpper() == "S")
-                    {
-                        Console.WriteLine($"{materia.NombreMateria} ha sido marcada como aprobada");
-                        MateriasAprobadasPorAlumno.AgregarMateria(CodigoPersona, materia.CodigoMateria, materia.NombreMateria);
-                    }
-                    else
-                    {
-                        Console.WriteLine($"{materia.NombreMateria} NO ha sido marcada como aprobada");
+                    bool Confirmacion = true;
 
-                    }
+                    do
+                    {
+                        Console.WriteLine($"Marcaste como aprobada la materia {materia.CodigoMateria}. Está usted seguro? S/N\n");
+                        var key = Console.ReadLine();
+                        if (key.ToUpper() == "S")
+                        {
+                            Console.WriteLine($"{materia.NombreMateria} ha sido marcada como aprobada");
+                            MateriasAprobadasPorAlumno.AgregarMateria(CodigoPersona, materia.CodigoMateria, materia.NombreMateria);
+                            Confirmacion = false;
+                        }
+                        else if (key.ToUpper() == "N")
+                        {
+                            Console.WriteLine($"{materia.NombreMateria} NO ha sido marcada como aprobada");
+                            SeleccionarAprobada(eleccionCarrera, CodigoPersona, rankingAlumno);
+                            Confirmacion = false;
+                        }
+                        else
+                        {
+                            Console.WriteLine($"No ha seleccionado una opción. Debe de marcar S o N\n");
+                        }
+
+                    } while (Confirmacion == true);
 
                     otraAprobada(eleccionCarrera, CodigoPersona, rankingAlumno);
                 }
@@ -607,16 +666,32 @@ namespace TP4
                         }
                         else
                         {
-                            Console.WriteLine($"Te has inscripto en {materiaEcon.CodigoMateria}. Está usted seguro? S/N\n");
-                            var key = Console.ReadLine();
-                            if (key.ToUpper() == "S")
+                            bool Confirmacion = true;
+                            do
                             {
-                                Console.WriteLine($"Has sido inscripto en {materiaEcon.NombreMateria}");
-                                InscripcionesPorAlumno.AgregarInscripcion(CodigoPersona, materiaEcon.CodigoMateria, materiaEcon.NombreMateria, rankingAlumno);
-                            }
+                                Console.WriteLine($"Te has inscripto en {materiaEcon.CodigoMateria}. Está usted seguro? S/N\n");
+                                var key = Console.ReadLine();
+                                if (key.ToUpper() == "S")
+                                {
+                                    Console.WriteLine($"Has sido inscripto en {materiaEcon.NombreMateria}");
+                                    InscripcionesPorAlumno.AgregarInscripcion(CodigoPersona, materiaEcon.CodigoMateria, materiaEcon.NombreMateria, rankingAlumno);
+                                    Confirmacion = false;
+                                }
+                                else if (key.ToUpper() == "N")
+                                {
+                                    Console.WriteLine($"{materiaEcon.NombreMateria} NO ha sido marcada como inscripta");
+                                    Inscripciones(CodigoPersona, eleccionCarrera, CantidadMax, rankingAlumno);
+                                    Confirmacion = false;
+                                }
+                                else
+                                {
+                                    Console.WriteLine($"No ha seleccionado una opción. Debe de marcar S o N\n");
+                                }
 
-                            InscripcionesPorAlumno.MostrarInscripciones(CodigoPersona);
+                                InscripcionesPorAlumno.MostrarInscripciones(CodigoPersona);
 
+                            } while (Confirmacion == true);
+                            
                             otraInscripcion(CodigoPersona, eleccionCarrera, CantidadMax, rankingAlumno);
                         }
                     }
