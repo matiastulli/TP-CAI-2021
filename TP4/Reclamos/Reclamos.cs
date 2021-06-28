@@ -201,7 +201,7 @@ namespace TP4
                 resolucion = Console.ReadLine();
                 if (string.IsNullOrWhiteSpace(resolucion))
                 {
-                    Console.WriteLine("No ha ingresado un reclamo válido");
+                    Console.WriteLine("No ha ingresado una respuesta válida");
                     Validacion = false;
                 }
 
