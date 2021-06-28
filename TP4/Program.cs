@@ -7,6 +7,7 @@ namespace TP4
 {
     public class Program
     {
+        public static int CantidadMaxRepetida = 0;
         
         static void Main(string[] args)
         {
@@ -626,11 +627,13 @@ namespace TP4
                 if (respuesta == "1")
                 {
                     cantidadMax = 4;
+                    CantidadMaxRepetida = 4;
                     entrarLoop = false;
                 }
                 else if (respuesta == "2")
                 {
                     cantidadMax = 3;
+                    CantidadMaxRepetida = 3;
                     entrarLoop = false;
                 }
                 else

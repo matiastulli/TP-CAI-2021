@@ -96,7 +96,7 @@ namespace TP4
 
         private static int IngresarCodigoMateriaAsignacion(int CantidadMax)
         {
-            var titulo = "Ingrese el codigo de materia a inscribirse numero 1/" + CantidadMax;
+            var titulo = "Ingrese el codigo de materia a inscribirse numero " + CantidadMax + "/" + Program.CantidadMaxRepetida;
 
             do
             {
