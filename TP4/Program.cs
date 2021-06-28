@@ -620,7 +620,8 @@ namespace TP4
             int cantidadMax=0;
             do
             {
-                Console.WriteLine("Esta en las ultimas 4 materias?");
+                Console.WriteLine("¿Esta en las ultimas 4 materias?");
+                Console.WriteLine("Su respuesta tiene caracter de declaración jurada");
                 Console.WriteLine("1 - SI");
                 Console.WriteLine("2 - NO");
                 string respuesta = Console.ReadLine();
