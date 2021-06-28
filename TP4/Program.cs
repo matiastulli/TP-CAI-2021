@@ -722,24 +722,38 @@ namespace TP4
                         }
                         else
                         {
-                            Console.WriteLine($"Te has inscripto en {materiaSistemas.CodigoMateria}. Está usted seguro? S/N\n");
-
-                            var key = Console.ReadLine();
-                            if (key.ToUpper() == "S")
+                            bool Confirmacion = true;
+                            do
                             {
-                                Console.WriteLine($"Has sido inscripto en {materiaSistemas.NombreMateria}");
-                                InscripcionesPorAlumno.AgregarInscripcion(CodigoPersona, materiaSistemas.CodigoMateria, materiaSistemas.NombreMateria, rankingAlumno);
-                            }
+                                Console.WriteLine($"Te has inscripto en {materiaSistemas.CodigoMateria}. Está usted seguro? S/N\n");
+                                var key = Console.ReadLine();
+                                if (key.ToUpper() == "S")
+                                {
+                                    Console.WriteLine($"Has sido inscripto en {materiaSistemas.NombreMateria}");
+                                    InscripcionesPorAlumno.AgregarInscripcion(CodigoPersona, materiaSistemas.CodigoMateria, materiaSistemas.NombreMateria, rankingAlumno);
+                                    Confirmacion = false;
+                                    InscripcionesPorAlumno.MostrarInscripciones(CodigoPersona);
+                                }
+                                else if (key.ToUpper() == "N")
+                                {
+                                    Console.WriteLine($"{materiaSistemas.NombreMateria} NO ha sido marcada como inscripta");
+                                    Inscripciones(CodigoPersona, eleccionCarrera, CantidadMax, rankingAlumno);
+                                    Confirmacion = false;
+                                }
+                                else
+                                {
+                                    Console.WriteLine($"No ha seleccionado una opción. Debe de marcar S o N\n");
+                                }
 
-                            InscripcionesPorAlumno.MostrarInscripciones(CodigoPersona);
+                            } while (Confirmacion == true);
 
                             otraInscripcion(CodigoPersona, eleccionCarrera, CantidadMax, rankingAlumno);
                         }
                     }
-                    else if (CantidadMax == 0)
+                    else if (CantidadMax <= 0)
                     {
-                        Console.WriteLine("¡No se puede inscribir a más materias, accedera a sus inscripciones hasta el momento!\n");
-                        
+                        Console.WriteLine("¡Ya alcanzo el limite de materias al que puede inscribirse!\n");
+                        MenuEstudiante(CodigoPersona, rankingAlumno);
 
                     }
                     break;
@@ -762,24 +776,38 @@ namespace TP4
                         }
                         else
                         {
-                            Console.WriteLine($"Te has inscripto en {materiaContador.CodigoMateria}. Está usted seguro? S/N\n");
-
-                            var key = Console.ReadLine();
-                            if (key.ToUpper() == "S")
+                            bool Confirmacion = true;
+                            do
                             {
-                                Console.WriteLine($"Has sido inscripto en {materiaContador.NombreMateria}");
-                                InscripcionesPorAlumno.AgregarInscripcion(CodigoPersona, materiaContador.CodigoMateria, materiaContador.NombreMateria, rankingAlumno);
-                            }
+                                Console.WriteLine($"Te has inscripto en {materiaContador.CodigoMateria}. Está usted seguro? S/N\n");
+                                var key = Console.ReadLine();
+                                if (key.ToUpper() == "S")
+                                {
+                                    Console.WriteLine($"Has sido inscripto en {materiaContador.NombreMateria}");
+                                    InscripcionesPorAlumno.AgregarInscripcion(CodigoPersona, materiaContador.CodigoMateria, materiaContador.NombreMateria, rankingAlumno);
+                                    Confirmacion = false;
+                                    InscripcionesPorAlumno.MostrarInscripciones(CodigoPersona);
+                                }
+                                else if (key.ToUpper() == "N")
+                                {
+                                    Console.WriteLine($"{materiaContador.NombreMateria} NO ha sido marcada como inscripta");
+                                    Inscripciones(CodigoPersona, eleccionCarrera, CantidadMax, rankingAlumno);
+                                    Confirmacion = false;
+                                }
+                                else
+                                {
+                                    Console.WriteLine($"No ha seleccionado una opción. Debe de marcar S o N\n");
+                                }
 
-                            InscripcionesPorAlumno.MostrarInscripciones(CodigoPersona);
+                            } while (Confirmacion == true);
 
                             otraInscripcion(CodigoPersona, eleccionCarrera, CantidadMax, rankingAlumno);
                         }
                     }
-                    else if (CantidadMax == 0)
+                    else if (CantidadMax <= 0)
                     {
-                        Console.WriteLine("¡No se puede inscribir a más materias, accedera a sus inscripciones hasta el momento!\n");
-                        
+                        Console.WriteLine("¡Ya alcanzo el limite de materias al que puede inscribirse!\n");
+                        MenuEstudiante(CodigoPersona, rankingAlumno);
 
                     }
                     break;
@@ -801,24 +829,38 @@ namespace TP4
                         }
                         else
                         {
-                            Console.WriteLine($"Te has inscripto en {materiaActAdmin.CodigoMateria}. Está usted seguro? S/N\n");
-
-                            var key = Console.ReadLine();
-                            if (key.ToUpper() == "S")
+                            bool Confirmacion = true;
+                            do
                             {
-                                Console.WriteLine($"Has sido inscripto en {materiaActAdmin.NombreMateria}");
-                                InscripcionesPorAlumno.AgregarInscripcion(CodigoPersona, materiaActAdmin.CodigoMateria, materiaActAdmin.NombreMateria, rankingAlumno);
-                            }
+                                Console.WriteLine($"Te has inscripto en {materiaActAdmin.CodigoMateria}. Está usted seguro? S/N\n");
+                                var key = Console.ReadLine();
+                                if (key.ToUpper() == "S")
+                                {
+                                    Console.WriteLine($"Has sido inscripto en {materiaActAdmin.NombreMateria}");
+                                    InscripcionesPorAlumno.AgregarInscripcion(CodigoPersona, materiaActAdmin.CodigoMateria, materiaActAdmin.NombreMateria, rankingAlumno);
+                                    Confirmacion = false;
+                                    InscripcionesPorAlumno.MostrarInscripciones(CodigoPersona);
+                                }
+                                else if (key.ToUpper() == "N")
+                                {
+                                    Console.WriteLine($"{materiaActAdmin.NombreMateria} NO ha sido marcada como inscripta");
+                                    Inscripciones(CodigoPersona, eleccionCarrera, CantidadMax, rankingAlumno);
+                                    Confirmacion = false;
+                                }
+                                else
+                                {
+                                    Console.WriteLine($"No ha seleccionado una opción. Debe de marcar S o N\n");
+                                }
 
-                            InscripcionesPorAlumno.MostrarInscripciones(CodigoPersona);
+                            } while (Confirmacion == true);
 
                             otraInscripcion(CodigoPersona, eleccionCarrera, CantidadMax, rankingAlumno);
                         }
                     }
-                    else if (CantidadMax == 0)
+                    else if (CantidadMax <= 0)
                     {
-                        Console.WriteLine("¡No se puede inscribir a más materias, accedera a sus inscripciones hasta el momento!\n");
-                        
+                        Console.WriteLine("¡Ya alcanzo el limite de materias al que puede inscribirse!\n");
+                        MenuEstudiante(CodigoPersona, rankingAlumno);
 
                     }
                     break;
@@ -840,24 +882,38 @@ namespace TP4
                         }
                         else
                         {
-                            Console.WriteLine($"Te has inscripto en {materiaActEcono.CodigoMateria}. Está usted seguro? S/N\n");
-
-                            var key = Console.ReadLine();
-                            if (key.ToUpper() == "S")
+                            bool Confirmacion = true;
+                            do
                             {
-                                Console.WriteLine($"Has sido inscripto en {materiaActEcono.NombreMateria}");
-                                InscripcionesPorAlumno.AgregarInscripcion(CodigoPersona, materiaActEcono.CodigoMateria, materiaActEcono.NombreMateria, rankingAlumno);
-                            }
+                                Console.WriteLine($"Te has inscripto en {materiaActEcono.CodigoMateria}. Está usted seguro? S/N\n");
+                                var key = Console.ReadLine();
+                                if (key.ToUpper() == "S")
+                                {
+                                    Console.WriteLine($"Has sido inscripto en {materiaActEcono.NombreMateria}");
+                                    InscripcionesPorAlumno.AgregarInscripcion(CodigoPersona, materiaActEcono.CodigoMateria, materiaActEcono.NombreMateria, rankingAlumno);
+                                    Confirmacion = false;
+                                    InscripcionesPorAlumno.MostrarInscripciones(CodigoPersona);
+                                }
+                                else if (key.ToUpper() == "N")
+                                {
+                                    Console.WriteLine($"{materiaActEcono.NombreMateria} NO ha sido marcada como inscripta");
+                                    Inscripciones(CodigoPersona, eleccionCarrera, CantidadMax, rankingAlumno);
+                                    Confirmacion = false;
+                                }
+                                else
+                                {
+                                    Console.WriteLine($"No ha seleccionado una opción. Debe de marcar S o N\n");
+                                }
 
-                            InscripcionesPorAlumno.MostrarInscripciones(CodigoPersona);
+                            } while (Confirmacion == true);
 
                             otraInscripcion(CodigoPersona, eleccionCarrera, CantidadMax, rankingAlumno);
                         }
                     }
-                    else if (CantidadMax == 0)
+                    else if (CantidadMax <= 0)
                     {
-                        Console.WriteLine("¡No se puede inscribir a más materias, accedera a sus inscripciones hasta el momento!\n");
-                        
+                        Console.WriteLine("¡Ya alcanzo el limite de materias al que puede inscribirse!\n");
+                        MenuEstudiante(CodigoPersona, rankingAlumno);
 
                     }
                     break;
@@ -880,24 +936,38 @@ namespace TP4
                         }
                         else
                         {
-                            Console.WriteLine($"Te has inscripto en {materiaAdmEmpresas.CodigoMateria}. Está usted seguro? S/N\n");
-
-                            var key = Console.ReadLine();
-                            if (key.ToUpper() == "S")
+                            bool Confirmacion = true;
+                            do
                             {
-                                Console.WriteLine($"Has sido inscripto en {materiaAdmEmpresas.NombreMateria}");
-                                InscripcionesPorAlumno.AgregarInscripcion(CodigoPersona, materiaAdmEmpresas.CodigoMateria, materiaAdmEmpresas.NombreMateria, rankingAlumno);
-                            }
+                                Console.WriteLine($"Te has inscripto en {materiaAdmEmpresas.CodigoMateria}. Está usted seguro? S/N\n");
+                                var key = Console.ReadLine();
+                                if (key.ToUpper() == "S")
+                                {
+                                    Console.WriteLine($"Has sido inscripto en {materiaAdmEmpresas.NombreMateria}");
+                                    InscripcionesPorAlumno.AgregarInscripcion(CodigoPersona, materiaAdmEmpresas.CodigoMateria, materiaAdmEmpresas.NombreMateria, rankingAlumno);
+                                    Confirmacion = false;
+                                    InscripcionesPorAlumno.MostrarInscripciones(CodigoPersona);
+                                }
+                                else if (key.ToUpper() == "N")
+                                {
+                                    Console.WriteLine($"{materiaAdmEmpresas.NombreMateria} NO ha sido marcada como inscripta");
+                                    Inscripciones(CodigoPersona, eleccionCarrera, CantidadMax, rankingAlumno);
+                                    Confirmacion = false;
+                                }
+                                else
+                                {
+                                    Console.WriteLine($"No ha seleccionado una opción. Debe de marcar S o N\n");
+                                }
 
-                            InscripcionesPorAlumno.MostrarInscripciones(CodigoPersona);
+                            } while (Confirmacion == true);
 
                             otraInscripcion(CodigoPersona, eleccionCarrera, CantidadMax, rankingAlumno);
                         }
                     }
-                    else if (CantidadMax == 0)
+                    else if (CantidadMax <= 0)
                     {
-                        Console.WriteLine("¡No se puede inscribir a más materias, accedera a sus inscripciones hasta el momento!\n");
-                        
+                        Console.WriteLine("¡Ya alcanzo el limite de materias al que puede inscribirse!\n");
+                        MenuEstudiante(CodigoPersona, rankingAlumno);
 
                     }
                     break;
