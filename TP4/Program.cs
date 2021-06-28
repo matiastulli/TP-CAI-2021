@@ -676,6 +676,7 @@ namespace TP4
                                     Console.WriteLine($"Has sido inscripto en {materiaEcon.NombreMateria}");
                                     InscripcionesPorAlumno.AgregarInscripcion(CodigoPersona, materiaEcon.CodigoMateria, materiaEcon.NombreMateria, rankingAlumno);
                                     Confirmacion = false;
+                                    InscripcionesPorAlumno.MostrarInscripciones(CodigoPersona);
                                 }
                                 else if (key.ToUpper() == "N")
                                 {
@@ -687,8 +688,6 @@ namespace TP4
                                 {
                                     Console.WriteLine($"No ha seleccionado una opción. Debe de marcar S o N\n");
                                 }
-
-                                InscripcionesPorAlumno.MostrarInscripciones(CodigoPersona);
 
                             } while (Confirmacion == true);
                             
