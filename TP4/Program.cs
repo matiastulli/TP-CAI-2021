@@ -694,9 +694,10 @@ namespace TP4
                             otraInscripcion(CodigoPersona, eleccionCarrera, CantidadMax, rankingAlumno);
                         }
                     }
-                    else if(CantidadMax == -1 )
+                    else if(CantidadMax <= 0 )
                     {
                         Console.WriteLine("¡No se puede inscribir a más materias, accedera a sus inscripciones hasta el momento!\n");
+                        MenuEstudiante(CodigoPersona, rankingAlumno);
 
                     }
                     break;
