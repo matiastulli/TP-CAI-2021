@@ -322,18 +322,26 @@ namespace TP4
                 }
                 else
                 {
-                    Console.WriteLine($"Marcaste como aprobada la materia {materia.CodigoMateria}. Está usted seguro? S/N\n");
-                    var key = Console.ReadLine();
-                    if (key.ToUpper() == "S")
+                    bool Confirmacion = true;
+
+                    do
                     {
-                        Console.WriteLine($"{materia.NombreMateria} ha sido marcada como aprobada");
-                        MateriasAprobadasPorAlumno.AgregarMateria(CodigoPersona, materia.CodigoMateria, materia.NombreMateria);
-                    }
-                    else if (key.ToUpper() == "N")
-                    {
-                        Console.WriteLine($"{materia.NombreMateria} NO ha sido marcada como aprobada");
-                        SeleccionarAprobada(eleccionCarrera, CodigoPersona, rankingAlumno);
-                    }
+                        Console.WriteLine($"Marcaste como aprobada la materia {materia.CodigoMateria}. Está usted seguro? S/N\n");
+                        var key = Console.ReadLine();
+                        if (key.ToUpper() == "S")
+                        {
+                            Console.WriteLine($"{materia.NombreMateria} ha sido marcada como aprobada");
+                            MateriasAprobadasPorAlumno.AgregarMateria(CodigoPersona, materia.CodigoMateria, materia.NombreMateria);
+                            Confirmacion = false;
+                        }
+                        else if (key.ToUpper() == "N")
+                        {
+                            Console.WriteLine($"{materia.NombreMateria} NO ha sido marcada como aprobada");
+                            SeleccionarAprobada(eleccionCarrera, CodigoPersona, rankingAlumno);
+                            Confirmacion = false;
+                        }
+                    } while (Confirmacion == false);
+                    
 
                     otraAprobada(eleccionCarrera, CodigoPersona, rankingAlumno);
                 }
@@ -387,18 +395,20 @@ namespace TP4
                 }
                 else
                 {
-                    Console.WriteLine($"Marcaste como aprobada la materia {materia.CodigoMateria}. Está usted seguro? S/N\n");
-                    var key = Console.ReadLine();
-                    if (key.ToUpper() == "S")
-                    {
-                        Console.WriteLine($"{materia.NombreMateria} ha sido marcada como aprobada");
-                        MateriasAprobadasPorAlumno.AgregarMateria(CodigoPersona, materia.CodigoMateria, materia.NombreMateria);
-                    }
-                    else
-                    {
-                        Console.WriteLine($"{materia.NombreMateria} NO ha sido marcada como aprobada");
+                    
+                        Console.WriteLine($"Marcaste como aprobada la materia {materia.CodigoMateria}. Está usted seguro? S/N\n");
+                        var key = Console.ReadLine();
+                        if (key.ToUpper() == "S")
+                        {
+                            Console.WriteLine($"{materia.NombreMateria} ha sido marcada como aprobada");
+                            MateriasAprobadasPorAlumno.AgregarMateria(CodigoPersona, materia.CodigoMateria, materia.NombreMateria);
+                        }
+                        else
+                        {
+                            Console.WriteLine($"{materia.NombreMateria} NO ha sido marcada como aprobada");
 
-                    }
+                        }
+                    
 
                     otraAprobada(eleccionCarrera, CodigoPersona, rankingAlumno);
                 }
