@@ -329,10 +329,10 @@ namespace TP4
                         Console.WriteLine($"{materia.NombreMateria} ha sido marcada como aprobada");
                         MateriasAprobadasPorAlumno.AgregarMateria(CodigoPersona, materia.CodigoMateria, materia.NombreMateria);
                     }
-                    else
+                    else if (key.ToUpper() == "N")
                     {
                         Console.WriteLine($"{materia.NombreMateria} NO ha sido marcada como aprobada");
-
+                        SeleccionarAprobada(eleccionCarrera, CodigoPersona, rankingAlumno);
                     }
 
                     otraAprobada(eleccionCarrera, CodigoPersona, rankingAlumno);
@@ -593,9 +593,8 @@ namespace TP4
                         else
                         {
                             Console.WriteLine($"Te has inscripto en {materiaEcon.CodigoMateria}. Está usted seguro? S/N\n");
-
-                            var keyEcon = Console.ReadKey(intercept: true);
-                            if (keyEcon.Key == ConsoleKey.S)
+                            var key = Console.ReadLine();
+                            if (key.ToUpper() == "S")
                             {
                                 Console.WriteLine($"Has sido inscripto en {materiaEcon.NombreMateria}");
                                 InscripcionesPorAlumno.AgregarInscripcion(CodigoPersona, materiaEcon.CodigoMateria, materiaEcon.NombreMateria, rankingAlumno);
@@ -632,8 +631,8 @@ namespace TP4
                         {
                             Console.WriteLine($"Te has inscripto en {materiaSistemas.CodigoMateria}. Está usted seguro? S/N\n");
 
-                            var keyEcon = Console.ReadKey(intercept: true);
-                            if (keyEcon.Key == ConsoleKey.S)
+                            var key = Console.ReadLine();
+                            if (key.ToUpper() == "S")
                             {
                                 Console.WriteLine($"Has sido inscripto en {materiaSistemas.NombreMateria}");
                                 InscripcionesPorAlumno.AgregarInscripcion(CodigoPersona, materiaSistemas.CodigoMateria, materiaSistemas.NombreMateria, rankingAlumno);
@@ -672,8 +671,8 @@ namespace TP4
                         {
                             Console.WriteLine($"Te has inscripto en {materiaContador.CodigoMateria}. Está usted seguro? S/N\n");
 
-                            var keyEcon = Console.ReadKey(intercept: true);
-                            if (keyEcon.Key == ConsoleKey.S)
+                            var key = Console.ReadLine();
+                            if (key.ToUpper() == "S")
                             {
                                 Console.WriteLine($"Has sido inscripto en {materiaContador.NombreMateria}");
                                 InscripcionesPorAlumno.AgregarInscripcion(CodigoPersona, materiaContador.CodigoMateria, materiaContador.NombreMateria, rankingAlumno);
@@ -711,8 +710,8 @@ namespace TP4
                         {
                             Console.WriteLine($"Te has inscripto en {materiaActAdmin.CodigoMateria}. Está usted seguro? S/N\n");
 
-                            var keyEcon = Console.ReadKey(intercept: true);
-                            if (keyEcon.Key == ConsoleKey.S)
+                            var key = Console.ReadLine();
+                            if (key.ToUpper() == "S")
                             {
                                 Console.WriteLine($"Has sido inscripto en {materiaActAdmin.NombreMateria}");
                                 InscripcionesPorAlumno.AgregarInscripcion(CodigoPersona, materiaActAdmin.CodigoMateria, materiaActAdmin.NombreMateria, rankingAlumno);
@@ -750,8 +749,8 @@ namespace TP4
                         {
                             Console.WriteLine($"Te has inscripto en {materiaActEcono.CodigoMateria}. Está usted seguro? S/N\n");
 
-                            var keyEcon = Console.ReadKey(intercept: true);
-                            if (keyEcon.Key == ConsoleKey.S)
+                            var key = Console.ReadLine();
+                            if (key.ToUpper() == "S")
                             {
                                 Console.WriteLine($"Has sido inscripto en {materiaActEcono.NombreMateria}");
                                 InscripcionesPorAlumno.AgregarInscripcion(CodigoPersona, materiaActEcono.CodigoMateria, materiaActEcono.NombreMateria, rankingAlumno);
@@ -790,8 +789,8 @@ namespace TP4
                         {
                             Console.WriteLine($"Te has inscripto en {materiaAdmEmpresas.CodigoMateria}. Está usted seguro? S/N\n");
 
-                            var keyEcon = Console.ReadKey(intercept: true);
-                            if (keyEcon.Key == ConsoleKey.S)
+                            var key = Console.ReadLine();
+                            if (key.ToUpper() == "S")
                             {
                                 Console.WriteLine($"Has sido inscripto en {materiaAdmEmpresas.NombreMateria}");
                                 InscripcionesPorAlumno.AgregarInscripcion(CodigoPersona, materiaAdmEmpresas.CodigoMateria, materiaAdmEmpresas.NombreMateria, rankingAlumno);
