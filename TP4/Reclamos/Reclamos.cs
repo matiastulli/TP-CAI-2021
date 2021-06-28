@@ -105,8 +105,22 @@ namespace TP4
 
         public static void RealizarReclamo(int CodigoPersona)
         {
-            Console.WriteLine("¿Cual es el reclamo que desea realizar?");
-            string reclamo = Console.ReadLine();
+            string reclamo;
+            bool Validacion;
+
+            do
+            {
+                Validacion = true;
+                Console.WriteLine("Describa el reclamo que desea realizar: ");
+                reclamo = Console.ReadLine();
+                if (string.IsNullOrWhiteSpace(reclamo))
+                {
+                    Console.WriteLine("No ha ingresado un reclamo válido");
+                    Validacion = false;
+                }
+
+            } while (Validacion == false);
+            
             int numeroReclamo = 0;
             string estado = "PENDIENTE";
             AgregarReclamo(numeroReclamo, CodigoPersona, reclamo, estado);
@@ -175,12 +189,23 @@ namespace TP4
                 ActualizarEstadoReclamo();
             }
 
-            
-
             Console.WriteLine("\nNumero de reclamo: " + $"{reclamo.NReclamo}" + " Numero de registro: " + $"{reclamo.NRegistro}" + " Reclamo: " + $"{reclamo.Reclamo}" + " Estado: " + $"{reclamo.Estado}");
 
-            Console.WriteLine($"\n¿Cual es su respuesta?");
-            string resolucion = Console.ReadLine();
+            string resolucion;
+            bool Validacion;
+
+            do
+            {
+                Validacion = true;
+                Console.WriteLine($"\n¿Cual es su respuesta?");
+                resolucion = Console.ReadLine();
+                if (string.IsNullOrWhiteSpace(resolucion))
+                {
+                    Console.WriteLine("No ha ingresado un reclamo válido");
+                    Validacion = false;
+                }
+
+            } while (Validacion == false);
 
             Console.WriteLine($"Presionar S para marcar como solucionado el reclamo {reclamo.NReclamo}, o N para volver al menu\n");
             var key = Console.ReadLine();
@@ -243,7 +268,8 @@ namespace TP4
                 var ingreso = Console.ReadLine();
                 if (!obligatorio && string.IsNullOrWhiteSpace(ingreso))
                 {
-                    return 0;
+                    Console.WriteLine("No ha ingresado un numero de reclamo válido");
+                    continue;
                 }
 
                 if (!int.TryParse(ingreso, out var reclamo))

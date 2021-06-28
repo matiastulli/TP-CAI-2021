@@ -228,7 +228,7 @@ namespace TP4
             }
             if (contador == 0)
             {
-                Console.WriteLine("Aun no tenes materias asignadas");
+                Console.WriteLine("Aun no tenes materias asignadas. Debe esperar a que la secretaria asigne las materias");
             }
 
         }
