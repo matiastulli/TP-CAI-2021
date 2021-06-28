@@ -340,7 +340,12 @@ namespace TP4
                             SeleccionarAprobada(eleccionCarrera, CodigoPersona, rankingAlumno);
                             Confirmacion = false;
                         }
-                    } while (Confirmacion == false);
+                        else
+                        {
+                            Console.WriteLine($"No ha seleccionado una opción. Debe de marcar S o N\n");
+                        }
+
+                    } while (Confirmacion == true);
                     
 
                     otraAprobada(eleccionCarrera, CodigoPersona, rankingAlumno);
