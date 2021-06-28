@@ -107,6 +107,7 @@ namespace TP4
 
         public static bool ValidarInscripcionesAlumno(int CodigoPersona)
         {
+            ValidacionInscripciones.Clear();
             LeerInscripciones();
             bool Estado = true;
 
@@ -114,7 +115,7 @@ namespace TP4
             {
                 if (item.NRegistro == CodigoPersona)
                 {
-                    Console.WriteLine("No puede avanzar con el registro de inscripcion ya que usted se encuentra inscripto en: ");
+                    Console.WriteLine("No puede avanzar con el registro de inscripcion ya que usted se encuentra inscripto en materias.");
                     MostrarInscri(CodigoPersona);
                     Estado = false;
                     return Estado;

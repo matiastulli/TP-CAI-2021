@@ -1,18 +1,4 @@
 882020-80-247- Teoría Contable 
 882021-150-247- Teoría Contable 
-882022-200-247- Teoría Contable 
-882022-200-248- Estadística I 
-882022-200-249- Historia Económica y Social Argentina 
-882023-90-247- Teoría Contable 
-882023-90-248- Estadística I 
-882023-90-249- Historia Económica y Social Argentina 
-882024-120-247- Teoría Contable 
-882024-120-248- Estadística I 
-882024-120-249- Historia Económica y Social Argentina 
-882025-180-247- Teoría Contable 
-882025-180-248- Estadística I 
-882025-180-249- Historia Económica y Social Argentina 
-882026-100-247- Teoría Contable 
-882026-100-248- Estadística I 
-882026-100-249- Historia Económica y Social Argentina 
-882026-100-261- Teoría Política y Derecho Público 
+882021-150-248- Estadística I 
+882021-150-249- Historia Económica y Social Argentina 
