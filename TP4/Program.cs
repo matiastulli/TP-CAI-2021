@@ -116,10 +116,17 @@ namespace TP4
                         MenuAdmin();
                         break;
                     case "3":
-                        Reclamos.VerReclamosAdministrador();
-                        Reclamos.ActualizarEstadoReclamo();
-                        Reclamos.EscribirReclamosEnTXT();
-                        MenuAdmin();
+                        bool Estado = Reclamos.VerReclamosAdministrador();
+                        if (Estado == false)
+                        {
+                            Reclamos.ActualizarEstadoReclamo();
+                            Reclamos.EscribirReclamosEnTXT();
+                            MenuAdmin();
+                        }
+                        else
+                        {
+                            MenuAdmin();
+                        }
                         break;
                     case "0":
                         Environment.Exit(0);

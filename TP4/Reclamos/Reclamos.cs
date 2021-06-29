@@ -65,13 +65,28 @@ namespace TP4
         }
 
         
-        public static void VerReclamosAdministrador()
+        public static bool VerReclamosAdministrador()
         {
+            string Reclamos = "";
+            bool Estado = true;
+
             foreach (var val in AllreclamosAlumnos)
             {
-                Console.WriteLine("Numero de reclamo: " + val.NReclamo + "| Numero de registro: " + val.NRegistro + " | Descripcion reclamo: " + val.Reclamo + " | Estado: " + val.Estado);
+                Reclamos += "Numero de reclamo: " + val.NReclamo + "| Numero de registro: " + val.NRegistro + " | Descripcion reclamo: " + val.Reclamo + " | Estado: " + val.Estado + "\n";
             }
-            
+            if (Reclamos == "")
+            {
+                Console.WriteLine("\n¡No hay reclamos!");
+            }
+            else
+            {
+                Console.WriteLine(Reclamos);
+                Estado = false;
+                return Estado;
+            }
+
+            return Estado;
+
         }
 
         //VER
