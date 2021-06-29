@@ -240,6 +240,10 @@ namespace TP4
 
                 Console.WriteLine("\nNumero de reclamo cambiado con exito.");
             }
+            else if (key.ToUpper() == "N")
+            {
+                Console.WriteLine($"\n{reclamo.NReclamo} NO ha sido marcado como solucionado");
+            }
             else
             {
                 Console.WriteLine($"\n{reclamo.NReclamo} NO ha sido marcado como solucionado");
